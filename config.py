@@ -4,8 +4,8 @@ Alpha实盘交易系统配置文件
 
 # API配置
 API_CONFIG = {
-    'api_key': "Jslb5M7LNngrvkffIt41vVE56nU4iJ4N0JsBOw2BW7PsKR0Sr2xbIQylpF1TxU4I",
-    'secret_key': "TahJbg0QoErhys9MoFOqWrgTzwn8V9bRDubivvgWGdKOrtd51mq15LNess5nbGI9",
+    'api_key': "w2bR9XU4g6eN8qT1jY0LzA7cD3fV5sK2rC1mF8hJ9pQ4uB6vW3oP5xI7lS0nM2tY",
+    'secret_key': "p7LwX3gH1qV8yJ4bS0nK6tF2zU9mR5oC8dA1sI3vW7eN6lP4xT0jZ9fB2kY5hM",
     'base_url': "https://mock-api.roostoo.com"
 }
 
