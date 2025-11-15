@@ -441,7 +441,8 @@ class AlphaLiveTrading:
 
     def __init__(self, api_client: RoostooAPIClient, trading_pairs: List[str],
                  min_data_points: int = 30, rebalance_interval: int = 60,
-                 min_position_value: float = 10.0, max_position_pct: float = 0.3):
+                 min_position_value: float = 10.0, max_position_pct: float = 0.3,
+                 capital_usage_pct: float = 0.1):
         """
         初始化实盘交易系统
         
@@ -459,6 +460,7 @@ class AlphaLiveTrading:
         self.rebalance_interval = rebalance_interval
         self.min_position_value = min_position_value
         self.max_position_pct = max_position_pct
+        self.capital_usage_pct = capital_usage_pct
         
         # 初始化子模块
         self.data_manager = PriceDataManager(api_client, trading_pairs)
@@ -600,8 +602,12 @@ class AlphaLiveTrading:
         # 获取当前状态
         positions = self.get_current_positions()
         logger.info(f"[DEBUG] 当前持仓(数量): {positions}")
+
         portfolio_value = self.get_portfolio_value()
         logger.info(f"[DEBUG] 组合总价值(USD): {portfolio_value}")
+
+        tradable_value = portfolio_value * self.capital_usage_pct
+        logger.info(f"[DEBUG] 用于交易的资金(USD): {tradable_value}")
 
         current_prices = self.data_manager.fetch_current_prices()
         logger.info(f"[DEBUG] 当前价格: {current_prices}")
@@ -609,7 +615,7 @@ class AlphaLiveTrading:
         # 计算并执行交易
         for pair in self.trading_pairs:
             target_weight = self.target_weights.get(pair, 0.0)
-            target_value = portfolio_value * target_weight
+            target_value = tradable_value * target_weight
             
             current_qty = self.current_positions.get(pair, 0.0)
             current_price = current_prices.get(pair, 0.0)
@@ -751,10 +757,11 @@ if __name__ == "__main__":
     live_trading = AlphaLiveTrading(
         api_client=api_client,
         trading_pairs=trading_pairs,
-        min_data_points=30,          # 至少30个数据点才开始交易
-        rebalance_interval=60,       # 60分钟再平衡一次
+        min_data_points=60,          # 至少60个数据点才开始交易
+        rebalance_interval=10,       # 10分钟再平衡一次
         min_position_value=10.0,     # 最小交易10美元
-        max_position_pct=0.3         # 单个资产最大30%
+        max_position_pct=0.3,
+        capital_usage_pct=0.1         # 单个资产最大30%
     )
     
     # 每60秒收集一次数据+运行策略
