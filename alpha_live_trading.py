@@ -516,7 +516,7 @@ class AlphaLiveTrading:
         balance_data = self.api.get_balance()
         
         if balance_data and balance_data.get('Success'):
-            wallet = balance_data.get('Wallet', {})
+            wallet = balance_data.get('SpotWallet', {})
             
             for pair in self.trading_pairs:
                 coin = pair.split('/')[0]
@@ -535,7 +535,7 @@ class AlphaLiveTrading:
         if not balance_data or not balance_data.get('Success'):
             return 0.0
         
-        wallet = balance_data.get('Wallet', {})
+        wallet = balance_data.get('SpotWallet', {})
         total_value = float(wallet.get('USD', {}).get('Free', 0))
         
         current_prices = self.data_manager.fetch_current_prices()
