@@ -114,7 +114,7 @@ def test_api_connection():
         balance = api.get_balance()
         
         if balance and balance.get('Success'):
-            wallet = balance.get('Wallet', {})
+            wallet = balance.get('SpotWallet', {})
             usd = wallet.get('USD', {}).get('Free', 0)
             print(f"  ✓ API连接成功")
             print(f"  ✓ 账户余额: ${float(usd):,.2f} USD")
