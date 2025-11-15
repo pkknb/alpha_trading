@@ -96,7 +96,7 @@ def check_historical_data():
             return False
     else:
         print(f"{Colors.WARNING}未找到历史数据，将从头开始收集{Colors.ENDC}")
-        return False
+        return True
 
 
 def test_api_connection():
