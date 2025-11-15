@@ -56,9 +56,14 @@ class RoostooAPIClient:
         headers, payload, _ = self._get_signed_headers(payload={})
         
         try:
+            logger.info(f"[DEBUG][get_balance] 请求: url={url}, headers={headers}, params={payload}")
             response = requests.get(url, headers=headers, params=payload, timeout=10)
+            logger.info(f"[DEBUG][get_balance] 响应状态: {response.status_code}")
+            logger.info(f"[DEBUG][get_balance] 响应文本: {response.text}")
             response.raise_for_status()
-            return response.json()
+            data = response.json()
+            logger.info(f"[DEBUG][get_balance] 解析后的 JSON: {data}")
+            return data
         except Exception as e:
             logger.error(f"获取余额失败: {e}")
             return None
@@ -94,11 +99,19 @@ class RoostooAPIClient:
         
         headers, payload, total_params = self._get_signed_headers(payload)
         headers['Content-Type'] = 'application/x-www-form-urlencoded'
+
+        logger.info(f"[DEBUG][place_order] 请求: url={url}")
+        logger.info(f"[DEBUG][place_order] headers={headers}")
+        logger.info(f"[DEBUG][place_order] body(total_params)={total_params}")
         
         try:
             response = requests.post(url, headers=headers, data=total_params, timeout=10)
+            logger.info(f"[DEBUG][place_order] 响应状态: {response.status_code}")
+            logger.info(f"[DEBUG][place_order] 响应文本: {response.text}")
             response.raise_for_status()
-            return response.json()
+            data = response.json()
+            logger.info(f"[DEBUG][place_order] 解析后的 JSON: {data}")
+            return data
         except Exception as e:
             logger.error(f"下单失败: {e}")
             return None
@@ -574,19 +587,24 @@ class AlphaLiveTrading:
             logger.warning("[再平衡] 价格数据不足，跳过")
             return
         
+        logger.info(f"[DEBUG] price_df.tail():\n{price_df.tail()}")
+
         # 计算Alpha信号
         alpha_signals = self.calculate_alpha_signals(price_df)
+        logger.info(f"[DEBUG] Alpha 信号: {alpha_signals.to_dict()}")
         
         # 计算目标权重
         self.calculate_target_weights(alpha_signals)
+        logger.info(f"[DEBUG] 目标权重: {self.target_weights}")
         
         # 获取当前状态
-        self.get_current_positions()
+        positions = self.get_current_positions()
+        logger.info(f"[DEBUG] 当前持仓(数量): {positions}")
         portfolio_value = self.get_portfolio_value()
+        logger.info(f"[DEBUG] 组合总价值(USD): {portfolio_value}")
+
         current_prices = self.data_manager.fetch_current_prices()
-        
-        logger.info(f"[再平衡] 组合价值: ${portfolio_value:.2f}")
-        logger.info(f"[再平衡] 当前持仓: {self.current_positions}")
+        logger.info(f"[DEBUG] 当前价格: {current_prices}")
         
         # 计算并执行交易
         for pair in self.trading_pairs:
@@ -598,22 +616,38 @@ class AlphaLiveTrading:
             current_value = current_qty * current_price
             
             value_diff = target_value - current_value
+
+            logger.info(
+                f"[DEBUG][{pair}] target_weight={target_weight:.4f}, "
+                f"target_value={target_value:.4f}, current_qty={current_qty}, "
+                f"current_price={current_price}, current_value={current_value:.4f}, "
+                f"value_diff={value_diff:.4f}"
+            )
             
             # 如果差异太小，跳过
             if abs(value_diff) < self.min_position_value:
+                logger.info(
+                    f"[再平衡][{pair}] value_diff={value_diff:.4f} "
+                    f"< min_position_value={self.min_position_value}，跳过下单"
+                )
                 continue
             
             # 计算交易数量
             trade_qty = abs(value_diff) / current_price if current_price > 0 else 0
             trade_qty = round(trade_qty, 6)  # 保留6位小数
+            logger.info(f"[DEBUG][{pair}] 计算得到 trade_qty={trade_qty}")
             
             if trade_qty == 0:
+                logger.info(f"[再平衡][{pair}] trade_qty 为 0，跳过")
                 continue
             
             action = 'BUY' if value_diff > 0 else 'SELL'
-            
-            logger.info(f"[再平衡] {pair}: {action} {trade_qty} (目标${target_value:.2f} vs 当前${current_value:.2f})")
-            
+            logger.info(f"[再平衡] {pair}: {action} {trade_qty}")
+            logger.info(
+                f"[DEBUG][{pair}] 准备下单: pair={pair}, side={action}, "
+                f"quantity={trade_qty}, type=MARKET"
+            )
+
             # 下单
             order_result = self.api.place_order(
                 pair=pair,
@@ -621,6 +655,8 @@ class AlphaLiveTrading:
                 quantity=trade_qty,
                 order_type='MARKET'
             )
+            
+            logger.info(f"[DEBUG][{pair}] 下单返回: {order_result}")
             
             if order_result and order_result.get('Success'):
                 order_id = order_result.get('OrderDetail', {}).get('OrderID')
