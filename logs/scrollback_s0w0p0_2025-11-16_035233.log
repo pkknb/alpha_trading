@@ -1,0 +1,1129 @@
+2025-11-15 02:21:57,668 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 59.0 分钟                                                              
+2025-11-15 02:22:57,728 - alpha_live_trading - INFO -                         
+[迭代 5309] 2025-11-15 02:22:57        
+2025-11-15 02:22:57,951 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95793.53, 'ETH/USD': 3173.82, 'BNB/USD': 929.33, 'XRP/USD': 2.2826, 'DOGE/USD': 0.16165, 'SOL/USD': 142.32, 'ARB/USD': 0.2423}
+2025-11-15 02:22:57,951 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 58.0 分钟                                                              
+2025-11-15 02:23:57,998 - alpha_live_trading - INFO -                         
+[迭代 5310] 2025-11-15 02:23:57        
+2025-11-15 02:23:58,228 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95759.34, 'ETH/USD': 3175.04, 'BNB/USD': 930.16, 'XRP/USD': 2.2836, 'DOGE/USD': 0.16175, 'SOL/USD': 142.4, 'ARB/USD': 0.2424}
+2025-11-15 02:23:58,228 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 57.0 分钟                                                              
+2025-11-15 02:23:58,287 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 02:24:58,318 - alpha_live_trading - INFO -                         
+[迭代 5311] 2025-11-15 02:24:58        
+2025-11-15 02:24:58,551 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95750.0, 'ETH/USD': 3170.92, 'BNB/USD': 929.24, 'XRP/USD': 2.2826, 'DOGE/USD': 0.16171, 'SOL/USD': 142.31, 'ARB/USD': 0.2422}
+2025-11-15 02:24:58,551 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 56.0 分钟                                                              
+2025-11-15 02:25:58,558 - alpha_live_trading - INFO -                         
+[迭代 5312] 2025-11-15 02:25:58        
+2025-11-15 02:25:58,787 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95779.83, 'ETH/USD': 3172.0, 'BNB/USD': 929.99, 'XRP/USD': 2.285, 'DOGE/USD': 0.16178, 'SOL/USD': 142.38, 'ARB/USD': 0.2424}
+2025-11-15 02:25:58,787 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 55.0 分钟                                                              
+2025-11-15 02:26:58,847 - alpha_live_trading - INFO -                         
+[迭代 5313] 2025-11-15 02:26:58        
+2025-11-15 02:26:59,080 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95770.08, 'ETH/USD': 3172.31, 'BNB/USD': 929.72, 'XRP/USD': 2.285, 'DOGE/USD': 0.16189, 'SOL/USD': 142.36, 'ARB/USD': 0.2424}
+2025-11-15 02:26:59,081 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 54.0 分钟                                                              
+2025-11-15 02:27:59,141 - alpha_live_trading - INFO -                         
+[迭代 5314] 2025-11-15 02:27:59        
+2025-11-15 02:27:59,376 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95730.01, 'ETH/USD': 3170.96, 'BNB/USD': 929.29, 'XRP/USD': 2.2845, 'DOGE/USD': 0.16194, 'SOL/USD': 142.29, 'ARB/USD': 0.2423}
+2025-11-15 02:27:59,377 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 53.0 分钟                                                              
+2025-11-15 02:28:59,432 - alpha_live_trading - INFO -                         
+[迭代 5315] 2025-11-15 02:28:59        
+2025-11-15 02:28:59,665 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95840.74, 'ETH/USD': 3175.6, 'BNB/USD': 929.83, 'XRP/USD': 2.2866, 'DOGE/USD': 0.16201, 'SOL/USD': 142.48, 'ARB/USD': 0.2426}
+2025-11-15 02:28:59,665 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 52.0 分钟                                                              
+2025-11-15 02:29:59,726 - alpha_live_trading - INFO -                         
+[迭代 5316] 2025-11-15 02:29:59        
+2025-11-15 02:29:59,951 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95880.0, 'ETH/USD': 3176.33, 'BNB/USD': 929.61, 'XRP/USD': 2.2857, 'DOGE/USD': 0.16201, 'SOL/USD': 142.47, 'ARB/USD': 0.2425}
+2025-11-15 02:29:59,951 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 51.0 分钟                                                              
+2025-11-15 02:30:59,958 - alpha_live_trading - INFO -                         
+[迭代 5317] 2025-11-15 02:30:59        
+2025-11-15 02:31:00,229 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95817.0, 'ETH/USD': 3175.41, 'BNB/USD': 929.2, 'XRP/USD': 2.2834, 'DOGE/USD': 0.16184, 'SOL/USD': 142.33, 'ARB/USD': 0.2424}
+2025-11-15 02:31:00,229 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 50.0 分钟                                                              
+2025-11-15 02:32:00,238 - alpha_live_trading - INFO -                         
+[迭代 5318] 2025-11-15 02:32:00        
+2025-11-15 02:32:00,475 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95659.99, 'ETH/USD': 3170.25, 'BNB/USD': 928.31, 'XRP/USD': 2.2811, 'DOGE/USD': 0.16145, 'SOL/USD': 142.05, 'ARB/USD': 0.2417}
+2025-11-15 02:32:00,475 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 48.9 分钟                                                              
+2025-11-15 02:33:00,478 - alpha_live_trading - INFO -                         
+[迭代 5319] 2025-11-15 02:33:00        
+2025-11-15 02:33:00,710 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95736.63, 'ETH/USD': 3171.82, 'BNB/USD': 928.62, 'XRP/USD': 2.2823, 'DOGE/USD': 0.16154, 'SOL/USD': 142.17, 'ARB/USD': 0.2418}
+2025-11-15 02:33:00,710 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 47.9 分钟                                                              
+2025-11-15 02:34:00,738 - alpha_live_trading - INFO -                         
+[迭代 5320] 2025-11-15 02:34:00        
+2025-11-15 02:34:00,970 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95762.34, 'ETH/USD': 3172.5, 'BNB/USD': 928.45, 'XRP/USD': 2.2835, 'DOGE/USD': 0.1615, 'SOL/USD': 142.18, 'ARB/USD': 0.2418}
+2025-11-15 02:34:00,970 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 46.9 分钟                                                              
+2025-11-15 02:34:01,028 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 02:35:01,058 - alpha_live_trading - INFO -                         
+[迭代 5321] 2025-11-15 02:35:01        
+2025-11-15 02:35:01,293 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95728.76, 'ETH/USD': 3171.25, 'BNB/USD': 928.34, 'XRP/USD': 2.282, 'DOGE/USD': 0.16152, 'SOL/USD': 142.22, 'ARB/USD': 0.2417}
+2025-11-15 02:35:01,293 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 45.9 分钟                                                              
+2025-11-15 02:36:01,353 - alpha_live_trading - INFO -                         
+[迭代 5322] 2025-11-15 02:36:01        
+2025-11-15 02:36:01,599 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95749.27, 'ETH/USD': 3171.02, 'BNB/USD': 928.41, 'XRP/USD': 2.2821, 'DOGE/USD': 0.16149, 'SOL/USD': 142.26, 'ARB/USD': 0.2418}
+2025-11-15 02:36:01,599 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 44.9 分钟                                                              
+2025-11-15 02:37:01,648 - alpha_live_trading - INFO -                         
+[迭代 5323] 2025-11-15 02:37:01        
+2025-11-15 02:37:01,884 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95763.31, 'ETH/USD': 3172.01, 'BNB/USD': 928.55, 'XRP/USD': 2.2817, 'DOGE/USD': 0.1615, 'SOL/USD': 142.21, 'ARB/USD': 0.242}
+2025-11-15 02:37:01,884 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 43.9 分钟                                                              
+2025-11-15 02:38:01,918 - alpha_live_trading - INFO -                         
+[迭代 5324] 2025-11-15 02:38:01        
+2025-11-15 02:38:02,145 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95801.09, 'ETH/USD': 3171.92, 'BNB/USD': 928.67, 'XRP/USD': 2.283, 'DOGE/USD': 0.1615, 'SOL/USD': 142.22, 'ARB/USD': 0.2418}
+2025-11-15 02:38:02,146 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 42.9 分钟                                                              
+2025-11-15 02:39:02,206 - alpha_live_trading - INFO -                         
+[迭代 5325] 2025-11-15 02:39:02        
+2025-11-15 02:39:02,443 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95810.19, 'ETH/USD': 3171.99, 'BNB/USD': 929.19, 'XRP/USD': 2.2832, 'DOGE/USD': 0.16156, 'SOL/USD': 142.33, 'ARB/USD': 0.2417}
+2025-11-15 02:39:02,444 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 41.9 分钟                                                              
+2025-11-15 02:40:02,478 - alpha_live_trading - INFO -                         
+[迭代 5326] 2025-11-15 02:40:02        
+2025-11-15 02:40:02,711 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95899.68, 'ETH/USD': 3174.28, 'BNB/USD': 929.9, 'XRP/USD': 2.2856, 'DOGE/USD': 0.16162, 'SOL/USD': 142.35, 'ARB/USD': 0.2416}
+2025-11-15 02:40:02,712 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 40.9 分钟                                                              
+2025-11-15 02:41:02,768 - alpha_live_trading - INFO -                         
+[迭代 5327] 2025-11-15 02:41:02        
+2025-11-15 02:41:03,002 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95892.99, 'ETH/USD': 3173.92, 'BNB/USD': 931.46, 'XRP/USD': 2.2844, 'DOGE/USD': 0.16166, 'SOL/USD': 142.31, 'ARB/USD': 0.2418}
+2025-11-15 02:41:03,002 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 39.9 分钟                                                              
+2025-11-15 02:42:03,063 - alpha_live_trading - INFO -                         
+[迭代 5328] 2025-11-15 02:42:03        
+2025-11-15 02:42:03,312 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95938.29, 'ETH/USD': 3183.5, 'BNB/USD': 932.3, 'XRP/USD': 2.287, 'DOGE/USD': 0.16189, 'SOL/USD': 142.55, 'ARB/USD': 0.2423}
+2025-11-15 02:42:03,313 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 38.9 分钟                                                              
+2025-11-15 02:43:03,373 - alpha_live_trading - INFO -                         
+[迭代 5329] 2025-11-15 02:43:03        
+2025-11-15 02:43:03,600 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95962.0, 'ETH/USD': 3183.77, 'BNB/USD': 932.26, 'XRP/USD': 2.2876, 'DOGE/USD': 0.16191, 'SOL/USD': 142.54, 'ARB/USD': 0.2423}
+2025-11-15 02:43:03,601 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 37.9 分钟                                                              
+2025-11-15 02:44:03,658 - alpha_live_trading - INFO -                         
+[迭代 5330] 2025-11-15 02:44:03        
+2025-11-15 02:44:03,886 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95985.69, 'ETH/USD': 3184.7, 'BNB/USD': 932.31, 'XRP/USD': 2.2908, 'DOGE/USD': 0.16186, 'SOL/USD': 142.55, 'ARB/USD': 0.2423}
+2025-11-15 02:44:03,886 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 36.9 分钟                                                              
+2025-11-15 02:44:03,944 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 02:45:04,005 - alpha_live_trading - INFO -                         
+[迭代 5331] 2025-11-15 02:45:04        
+2025-11-15 02:45:04,260 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96134.0, 'ETH/USD': 3189.07, 'BNB/USD': 933.09, 'XRP/USD': 2.2928, 'DOGE/USD': 0.16203, 'SOL/USD': 142.8, 'ARB/USD': 0.2426}
+2025-11-15 02:45:04,260 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 35.9 分钟                                                              
+2025-11-15 02:46:04,320 - alpha_live_trading - INFO -                         
+[迭代 5332] 2025-11-15 02:46:04        
+2025-11-15 02:46:04,556 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96026.05, 'ETH/USD': 3187.55, 'BNB/USD': 933.61, 'XRP/USD': 2.292, 'DOGE/USD': 0.16202, 'SOL/USD': 142.7, 'ARB/USD': 0.2429}
+2025-11-15 02:46:04,556 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 34.9 分钟                                                              
+2025-11-15 02:47:04,558 - alpha_live_trading - INFO -                         
+[迭代 5333] 2025-11-15 02:47:04        
+2025-11-15 02:47:04,791 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96000.01, 'ETH/USD': 3186.18, 'BNB/USD': 933.12, 'XRP/USD': 2.2901, 'DOGE/USD': 0.16201, 'SOL/USD': 142.53, 'ARB/USD': 0.2428}
+2025-11-15 02:47:04,791 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 33.9 分钟                                                              
+2025-11-15 02:48:04,798 - alpha_live_trading - INFO -                         
+[迭代 5334] 2025-11-15 02:48:04        
+2025-11-15 02:48:05,034 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95956.37, 'ETH/USD': 3184.91, 'BNB/USD': 933.91, 'XRP/USD': 2.2911, 'DOGE/USD': 0.16201, 'SOL/USD': 142.46, 'ARB/USD': 0.2426}
+2025-11-15 02:48:05,034 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 32.9 分钟                                                              
+2025-11-15 02:49:05,073 - alpha_live_trading - INFO -                         
+[迭代 5335] 2025-11-15 02:49:05        
+2025-11-15 02:49:05,307 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96000.0, 'ETH/USD': 3187.27, 'BNB/USD': 933.94, 'XRP/USD': 2.2915, 'DOGE/USD': 0.16208, 'SOL/USD': 142.53, 'ARB/USD': 0.2428}
+2025-11-15 02:49:05,307 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 31.9 分钟                                                              
+2025-11-15 02:50:05,358 - alpha_live_trading - INFO -                         
+[迭代 5336] 2025-11-15 02:50:05        
+2025-11-15 02:50:05,596 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95923.26, 'ETH/USD': 3184.0, 'BNB/USD': 933.48, 'XRP/USD': 2.2903, 'DOGE/USD': 0.16194, 'SOL/USD': 142.46, 'ARB/USD': 0.2425}
+2025-11-15 02:50:05,596 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 30.9 分钟                                                              
+2025-11-15 02:51:05,628 - alpha_live_trading - INFO -                         
+[迭代 5337] 2025-11-15 02:51:05        
+2025-11-15 02:51:05,863 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95977.75, 'ETH/USD': 3184.87, 'BNB/USD': 934.9, 'XRP/USD': 2.2912, 'DOGE/USD': 0.16198, 'SOL/USD': 142.48, 'ARB/USD': 0.2425}
+2025-11-15 02:51:05,864 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 29.9 分钟                                                              
+2025-11-15 02:52:05,924 - alpha_live_trading - INFO -                         
+[迭代 5338] 2025-11-15 02:52:05        
+2025-11-15 02:52:06,152 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95971.55, 'ETH/USD': 3182.56, 'BNB/USD': 934.47, 'XRP/USD': 2.29, 'DOGE/USD': 0.16189, 'SOL/USD': 142.58, 'ARB/USD': 0.2426}
+2025-11-15 02:52:06,153 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 28.9 分钟                                                              
+2025-11-15 02:53:06,178 - alpha_live_trading - INFO -                         
+[迭代 5339] 2025-11-15 02:53:06        
+2025-11-15 02:53:06,410 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96038.0, 'ETH/USD': 3184.92, 'BNB/USD': 934.75, 'XRP/USD': 2.292, 'DOGE/USD': 0.16194, 'SOL/USD': 142.72, 'ARB/USD': 0.2427}
+2025-11-15 02:53:06,411 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 27.8 分钟                                                              
+2025-11-15 02:54:06,471 - alpha_live_trading - INFO -                         
+[迭代 5340] 2025-11-15 02:54:06        
+2025-11-15 02:54:06,702 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96196.63, 'ETH/USD': 3190.74, 'BNB/USD': 935.39, 'XRP/USD': 2.2962, 'DOGE/USD': 0.16222, 'SOL/USD': 143.16, 'ARB/USD': 0.2432}
+2025-11-15 02:54:06,702 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 26.8 分钟                                                              
+2025-11-15 02:54:06,759 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 02:55:06,820 - alpha_live_trading - INFO -                         
+[迭代 5341] 2025-11-15 02:55:06        
+2025-11-15 02:55:07,055 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96053.53, 'ETH/USD': 3184.16, 'BNB/USD': 934.12, 'XRP/USD': 2.2935, 'DOGE/USD': 0.1619, 'SOL/USD': 142.89, 'ARB/USD': 0.2429}
+2025-11-15 02:55:07,055 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 25.8 分钟                                                              
+2025-11-15 02:56:07,098 - alpha_live_trading - INFO -                         
+[迭代 5342] 2025-11-15 02:56:07        
+2025-11-15 02:56:07,325 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96133.04, 'ETH/USD': 3184.85, 'BNB/USD': 934.09, 'XRP/USD': 2.2939, 'DOGE/USD': 0.1619, 'SOL/USD': 142.86, 'ARB/USD': 0.2428}
+2025-11-15 02:56:07,326 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 24.8 分钟                                                              
+2025-11-15 02:57:07,386 - alpha_live_trading - INFO -                         
+[迭代 5343] 2025-11-15 02:57:07        
+2025-11-15 02:57:07,618 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96181.53, 'ETH/USD': 3187.38, 'BNB/USD': 934.72, 'XRP/USD': 2.2952, 'DOGE/USD': 0.16206, 'SOL/USD': 142.96, 'ARB/USD': 0.2432}
+2025-11-15 02:57:07,618 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 23.8 分钟                                                              
+2025-11-15 02:58:07,638 - alpha_live_trading - INFO -                         
+[迭代 5344] 2025-11-15 02:58:07        
+2025-11-15 02:58:07,869 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96268.35, 'ETH/USD': 3189.74, 'BNB/USD': 935.0, 'XRP/USD': 2.2989, 'DOGE/USD': 0.16211, 'SOL/USD': 142.99, 'ARB/USD': 0.2434}
+2025-11-15 02:58:07,870 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 22.8 分钟                                                              
+2025-11-15 02:59:07,930 - alpha_live_trading - INFO -                         
+[迭代 5345] 2025-11-15 02:59:07        
+2025-11-15 02:59:08,161 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96299.93, 'ETH/USD': 3190.0, 'BNB/USD': 935.52, 'XRP/USD': 2.2997, 'DOGE/USD': 0.16226, 'SOL/USD': 142.95, 'ARB/USD': 0.2437}
+2025-11-15 02:59:08,162 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 21.8 分钟                                                              
+2025-11-15 03:00:08,198 - alpha_live_trading - INFO -                         
+[迭代 5346] 2025-11-15 03:00:08        
+2025-11-15 03:00:08,445 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96385.28, 'ETH/USD': 3191.1, 'BNB/USD': 935.72, 'XRP/USD': 2.2995, 'DOGE/USD': 0.16237, 'SOL/USD': 142.97, 'ARB/USD': 0.2438}
+2025-11-15 03:00:08,445 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 20.8 分钟                                                              
+2025-11-15 03:01:08,505 - alpha_live_trading - INFO -                         
+[迭代 5347] 2025-11-15 03:01:08        
+2025-11-15 03:01:08,752 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96346.35, 'ETH/USD': 3192.53, 'BNB/USD': 935.54, 'XRP/USD': 2.3028, 'DOGE/USD': 0.1625, 'SOL/USD': 143.09, 'ARB/USD': 0.2443}
+2025-11-15 03:01:08,752 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 19.8 分钟                                                              
+2025-11-15 03:02:08,812 - alpha_live_trading - INFO -                         
+[迭代 5348] 2025-11-15 03:02:08        
+2025-11-15 03:02:09,043 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96408.81, 'ETH/USD': 3192.23, 'BNB/USD': 935.09, 'XRP/USD': 2.3024, 'DOGE/USD': 0.16255, 'SOL/USD': 143.21, 'ARB/USD': 0.2442}
+2025-11-15 03:02:09,043 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 18.8 分钟                                                              
+2025-11-15 03:03:09,048 - alpha_live_trading - INFO -                         
+[迭代 5349] 2025-11-15 03:03:09        
+2025-11-15 03:03:09,280 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96344.8, 'ETH/USD': 3187.65, 'BNB/USD': 934.11, 'XRP/USD': 2.2976, 'DOGE/USD': 0.16211, 'SOL/USD': 142.92, 'ARB/USD': 0.2439}
+2025-11-15 03:03:09,280 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 17.8 分钟                                                              
+2025-11-15 03:04:09,340 - alpha_live_trading - INFO -                         
+[迭代 5350] 2025-11-15 03:04:09        
+2025-11-15 03:04:09,581 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96302.32, 'ETH/USD': 3186.87, 'BNB/USD': 934.14, 'XRP/USD': 2.2975, 'DOGE/USD': 0.16215, 'SOL/USD': 142.88, 'ARB/USD': 0.2439}
+2025-11-15 03:04:09,581 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 16.8 分钟                                                              
+2025-11-15 03:04:09,639 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 03:05:09,665 - alpha_live_trading - INFO -                         
+[迭代 5351] 2025-11-15 03:05:09        
+2025-11-15 03:05:09,891 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96249.38, 'ETH/USD': 3185.58, 'BNB/USD': 933.83, 'XRP/USD': 2.2989, 'DOGE/USD': 0.1621, 'SOL/USD': 142.86, 'ARB/USD': 0.2438}
+2025-11-15 03:05:09,891 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 15.8 分钟                                                              
+2025-11-15 03:06:09,951 - alpha_live_trading - INFO -                         
+[迭代 5352] 2025-11-15 03:06:09        
+2025-11-15 03:06:10,176 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96268.52, 'ETH/USD': 3185.01, 'BNB/USD': 932.85, 'XRP/USD': 2.2957, 'DOGE/USD': 0.16191, 'SOL/USD': 142.75, 'ARB/USD': 0.2436}
+2025-11-15 03:06:10,176 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 14.8 分钟                                                              
+2025-11-15 03:07:10,218 - alpha_live_trading - INFO -                         
+[迭代 5353] 2025-11-15 03:07:10        
+2025-11-15 03:07:10,444 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96251.94, 'ETH/USD': 3184.52, 'BNB/USD': 932.94, 'XRP/USD': 2.2955, 'DOGE/USD': 0.16193, 'SOL/USD': 142.75, 'ARB/USD': 0.2437}
+2025-11-15 03:07:10,444 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 13.8 分钟                                                              
+2025-11-15 03:08:10,448 - alpha_live_trading - INFO -                         
+[迭代 5354] 2025-11-15 03:08:10        
+2025-11-15 03:08:10,681 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96307.99, 'ETH/USD': 3185.72, 'BNB/USD': 933.35, 'XRP/USD': 2.2958, 'DOGE/USD': 0.16201, 'SOL/USD': 142.86, 'ARB/USD': 0.244}
+2025-11-15 03:08:10,681 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 12.8 分钟                                                              
+2025-11-15 03:09:10,742 - alpha_live_trading - INFO -                         
+[迭代 5355] 2025-11-15 03:09:10        
+2025-11-15 03:09:10,974 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96313.5, 'ETH/USD': 3185.02, 'BNB/USD': 933.51, 'XRP/USD': 2.2943, 'DOGE/USD': 0.16202, 'SOL/USD': 142.84, 'ARB/USD': 0.2442}
+2025-11-15 03:09:10,974 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 11.8 分钟                                                              
+2025-11-15 03:10:11,034 - alpha_live_trading - INFO -                         
+[迭代 5356] 2025-11-15 03:10:11        
+2025-11-15 03:10:11,264 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96332.58, 'ETH/USD': 3185.89, 'BNB/USD': 933.35, 'XRP/USD': 2.2966, 'DOGE/USD': 0.1621, 'SOL/USD': 142.86, 'ARB/USD': 0.2442}
+2025-11-15 03:10:11,264 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 10.8 分钟                                                              
+2025-11-15 03:11:11,324 - alpha_live_trading - INFO -                         
+[迭代 5357] 2025-11-15 03:11:11        
+2025-11-15 03:11:11,554 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96326.23, 'ETH/USD': 3184.98, 'BNB/USD': 933.21, 'XRP/USD': 2.2955, 'DOGE/USD': 0.16196, 'SOL/USD': 142.82, 'ARB/USD': 0.2442}
+2025-11-15 03:11:11,554 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 9.8 分钟                                                               
+2025-11-15 03:12:11,615 - alpha_live_trading - INFO -                         
+[迭代 5358] 2025-11-15 03:12:11        
+2025-11-15 03:12:11,842 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96330.33, 'ETH/USD': 3186.11, 'BNB/USD': 933.51, 'XRP/USD': 2.2963, 'DOGE/USD': 0.16203, 'SOL/USD': 142.89, 'ARB/USD': 0.2443}
+2025-11-15 03:12:11,842 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 8.8 分钟                                                               
+2025-11-15 03:13:11,898 - alpha_live_trading - INFO -                         
+[迭代 5359] 2025-11-15 03:13:11        
+2025-11-15 03:13:12,124 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96433.74, 'ETH/USD': 3189.26, 'BNB/USD': 934.33, 'XRP/USD': 2.2982, 'DOGE/USD': 0.16222, 'SOL/USD': 143.07, 'ARB/USD': 0.2444}
+2025-11-15 03:13:12,124 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 7.8 分钟                                                               
+2025-11-15 03:14:12,184 - alpha_live_trading - INFO -                         
+[迭代 5360] 2025-11-15 03:14:12        
+2025-11-15 03:14:12,421 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96475.38, 'ETH/USD': 3187.85, 'BNB/USD': 934.24, 'XRP/USD': 2.2983, 'DOGE/USD': 0.16217, 'SOL/USD': 143.13, 'ARB/USD': 0.2443}
+2025-11-15 03:14:12,422 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 6.7 分钟                                                               
+2025-11-15 03:14:12,483 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 03:15:12,528 - alpha_live_trading - INFO -                         
+[迭代 5361] 2025-11-15 03:15:12        
+2025-11-15 03:15:12,748 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96527.63, 'ETH/USD': 3189.68, 'BNB/USD': 934.73, 'XRP/USD': 2.299, 'DOGE/USD': 0.1623, 'SOL/USD': 143.24, 'ARB/USD': 0.2448}
+2025-11-15 03:15:12,748 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 5.7 分钟                                                               
+2025-11-15 03:16:12,758 - alpha_live_trading - INFO -                         
+[迭代 5362] 2025-11-15 03:16:12        
+2025-11-15 03:16:12,988 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96524.26, 'ETH/USD': 3187.7, 'BNB/USD': 934.41, 'XRP/USD': 2.2967, 'DOGE/USD': 0.1623, 'SOL/USD': 143.18, 'ARB/USD': 0.2447}
+2025-11-15 03:16:12,988 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 4.7 分钟                                                               
+2025-11-15 03:17:13,048 - alpha_live_trading - INFO -                         
+[迭代 5363] 2025-11-15 03:17:13        
+2025-11-15 03:17:13,277 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96482.79, 'ETH/USD': 3187.31, 'BNB/USD': 934.61, 'XRP/USD': 2.2956, 'DOGE/USD': 0.16224, 'SOL/USD': 143.12, 'ARB/USD': 0.2448}
+2025-11-15 03:17:13,278 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 3.7 分钟                                                               
+2025-11-15 03:18:13,328 - alpha_live_trading - INFO -                         
+[迭代 5364] 2025-11-15 03:18:13        
+2025-11-15 03:18:13,559 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96403.15, 'ETH/USD': 3186.5, 'BNB/USD': 933.96, 'XRP/USD': 2.295, 'DOGE/USD': 0.16221, 'SOL/USD': 143.03, 'ARB/USD': 0.2447}
+2025-11-15 03:18:13,559 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 2.7 分钟                                                               
+2025-11-15 03:19:13,620 - alpha_live_trading - INFO -                         
+[迭代 5365] 2025-11-15 03:19:13        
+2025-11-15 03:19:13,856 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96497.14, 'ETH/USD': 3187.69, 'BNB/USD': 933.96, 'XRP/USD': 2.2974, 'DOGE/USD': 0.16232, 'SOL/USD': 143.11, 'ARB/USD': 0.2447}
+2025-11-15 03:19:13,856 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 1.7 分钟                                                               
+2025-11-15 03:20:13,898 - alpha_live_trading - INFO -                         
+[迭代 5366] 2025-11-15 03:20:13        
+2025-11-15 03:20:14,129 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96513.47, 'ETH/USD': 3188.43, 'BNB/USD': 933.87, 'XRP/USD': 2.2972, 'DOGE/USD': 0.16243, 'SOL/USD': 143.1, 'ARB/USD': 0.2446}
+2025-11-15 03:20:14,129 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 0.7 分钟                                                               
+2025-11-15 03:21:14,148 - alpha_live_trading - INFO -                         
+[迭代 5367] 2025-11-15 03:21:14        
+2025-11-15 03:21:14,370 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96586.62, 'ETH/USD': 3186.45, 'BNB/USD': 933.2, 'XRP/USD': 2.297, 'DOGE/USD': 0.1624, 'SOL/USD': 143.15, 'ARB/USD': 0.2445}
+2025-11-15 03:21:14,370 - alpha_live_trading - INFO - ======================================================================                                 
+2025-11-15 03:21:14,370 - alpha_live_trading - INFO - [再平衡] 开始执行...    
+/home/ssm-user/alpha_trading/alpha_live_trading.py:472: FutureWarning: The default fill_method='pad' in DataFrame.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.             
+  momentum_20 = price_df.pct_change(20).iloc[-1]                              
+/home/ssm-user/alpha_trading/alpha_live_trading.py:477: FutureWarning: The default fill_method='pad' in DataFrame.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.             
+  reversal_5 = -price_df.pct_change(5).iloc[-1]                               
+/home/ssm-user/alpha_trading/alpha_live_trading.py:482: FutureWarning: The default fill_method='pad' in DataFrame.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.             
+  volatility = price_df.pct_change().tail(20).std()                           
+2025-11-15 03:21:14,411 - alpha_live_trading - INFO - [Alpha计算] 信号值: {'BTC/USD': 1.4648497507568496, 'ETH/USD': -0.669209764285363, 'BNB/USD': -0.6964571470143545, 'XRP/USD': -1.25160510548306, 'DOGE/USD': -0.35515723570926405, 'SOL/USD': 0.5390138566639276, 'ARB/USD': 0.9685656450712641}                    
+2025-11-15 03:21:14,413 - alpha_live_trading - INFO - [权重计算] 目标权重: {'BTC/USD': np.float64(0.38395683693450433), 'ETH/USD': 0.0, 'BNB/USD': 0.0, 'XRP/USD': 0.0, 'DOGE/USD': 0.0, 'SOL/USD': np.float64(0.2320863261309913), 'ARB/USD': np.float64(0.38395683693450433)}                                           
+2025-11-15 03:21:15,165 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96586.62, 'ETH/USD': 3186.45, 'BNB/USD': 933.2, 'XRP/USD': 2.297, 'DOGE/USD': 0.16239, 'SOL/USD': 143.2, 'ARB/USD': 0.2445}
+2025-11-15 03:21:15,389 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96618.83, 'ETH/USD': 3187.44, 'BNB/USD': 933.4, 'XRP/USD': 2.297, 'DOGE/USD': 0.16239, 'SOL/USD': 143.2, 'ARB/USD': 0.2446}
+2025-11-15 03:21:15,389 - alpha_live_trading - INFO - [再平衡] 组合价值: $0.00                                                                               
+2025-11-15 03:21:15,389 - alpha_live_trading - INFO - [再平衡] 当前持仓: {}   
+2025-11-15 03:21:15,389 - alpha_live_trading - INFO - [再平衡] 完成           
+2025-11-15 03:21:15,389 - alpha_live_trading - INFO - ======================================================================                                 
+2025-11-15 03:22:15,448 - alpha_live_trading - INFO -                         
+[迭代 5368] 2025-11-15 03:22:15        
+2025-11-15 03:22:15,683 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96620.14, 'ETH/USD': 3188.71, 'BNB/USD': 933.5, 'XRP/USD': 2.2986, 'DOGE/USD': 0.16258, 'SOL/USD': 143.32, 'ARB/USD': 0.2447}
+2025-11-15 03:22:15,683 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 59.0 分钟                                                              
+2025-11-15 03:23:15,743 - alpha_live_trading - INFO -                         
+[迭代 5369] 2025-11-15 03:23:15        
+2025-11-15 03:23:15,983 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96638.59, 'ETH/USD': 3186.46, 'BNB/USD': 933.31, 'XRP/USD': 2.2972, 'DOGE/USD': 0.16251, 'SOL/USD': 143.19, 'ARB/USD': 0.2448}
+2025-11-15 03:23:15,983 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 58.0 分钟                                                              
+2025-11-15 03:24:15,998 - alpha_live_trading - INFO -                         
+[迭代 5370] 2025-11-15 03:24:15        
+2025-11-15 03:24:16,312 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96649.28, 'ETH/USD': 3185.86, 'BNB/USD': 933.69, 'XRP/USD': 2.2959, 'DOGE/USD': 0.16252, 'SOL/USD': 143.16, 'ARB/USD': 0.2448}
+2025-11-15 03:24:16,312 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 57.0 分钟                                                              
+2025-11-15 03:24:16,372 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 03:25:16,398 - alpha_live_trading - INFO -                         
+[迭代 5371] 2025-11-15 03:25:16        
+2025-11-15 03:25:16,621 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96680.95, 'ETH/USD': 3185.78, 'BNB/USD': 933.73, 'XRP/USD': 2.2964, 'DOGE/USD': 0.16243, 'SOL/USD': 143.06, 'ARB/USD': 0.2447}
+2025-11-15 03:25:16,622 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 56.0 分钟                                                              
+2025-11-15 03:26:16,638 - alpha_live_trading - INFO -                         
+[迭代 5372] 2025-11-15 03:26:16        
+2025-11-15 03:26:16,878 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96698.0, 'ETH/USD': 3188.4, 'BNB/USD': 934.3, 'XRP/USD': 2.297, 'DOGE/USD': 0.16272, 'SOL/USD': 143.17, 'ARB/USD': 0.2448}
+2025-11-15 03:26:16,879 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 55.0 分钟                                                              
+2025-11-15 03:27:16,939 - alpha_live_trading - INFO -                         
+[迭代 5373] 2025-11-15 03:27:16        
+2025-11-15 03:27:17,168 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96698.58, 'ETH/USD': 3189.0, 'BNB/USD': 934.0, 'XRP/USD': 2.2979, 'DOGE/USD': 0.16261, 'SOL/USD': 143.13, 'ARB/USD': 0.2447}
+2025-11-15 03:27:17,168 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 54.0 分钟                                                              
+2025-11-15 03:28:17,228 - alpha_live_trading - INFO -                         
+[迭代 5374] 2025-11-15 03:28:17        
+2025-11-15 03:28:17,453 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96800.0, 'ETH/USD': 3190.3, 'BNB/USD': 934.69, 'XRP/USD': 2.3009, 'DOGE/USD': 0.16288, 'SOL/USD': 143.24, 'ARB/USD': 0.2449}
+2025-11-15 03:28:17,453 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 53.0 分钟                                                              
+2025-11-15 03:29:17,514 - alpha_live_trading - INFO -                         
+[迭代 5375] 2025-11-15 03:29:17        
+2025-11-15 03:29:17,749 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96760.21, 'ETH/USD': 3188.05, 'BNB/USD': 933.9, 'XRP/USD': 2.3008, 'DOGE/USD': 0.16284, 'SOL/USD': 143.28, 'ARB/USD': 0.245}
+2025-11-15 03:29:17,749 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 52.0 分钟                                                              
+2025-11-15 03:30:17,809 - alpha_live_trading - INFO -                         
+[迭代 5376] 2025-11-15 03:30:17        
+2025-11-15 03:30:18,071 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96662.77, 'ETH/USD': 3184.67, 'BNB/USD': 933.31, 'XRP/USD': 2.3011, 'DOGE/USD': 0.16265, 'SOL/USD': 142.98, 'ARB/USD': 0.2449}
+2025-11-15 03:30:18,071 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 51.0 分钟                                                              
+2025-11-15 03:31:18,131 - alpha_live_trading - INFO -                         
+[迭代 5377] 2025-11-15 03:31:18        
+2025-11-15 03:31:18,359 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96637.56, 'ETH/USD': 3183.47, 'BNB/USD': 932.68, 'XRP/USD': 2.2999, 'DOGE/USD': 0.16262, 'SOL/USD': 142.89, 'ARB/USD': 0.245}
+2025-11-15 03:31:18,359 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 50.0 分钟                                                              
+2025-11-15 03:32:18,419 - alpha_live_trading - INFO -                         
+[迭代 5378] 2025-11-15 03:32:18        
+2025-11-15 03:32:18,649 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96537.68, 'ETH/USD': 3180.28, 'BNB/USD': 931.93, 'XRP/USD': 2.3011, 'DOGE/USD': 0.16263, 'SOL/USD': 142.73, 'ARB/USD': 0.2448}
+2025-11-15 03:32:18,649 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 48.9 分钟                                                              
+2025-11-15 03:33:18,709 - alpha_live_trading - INFO -                         
+[迭代 5379] 2025-11-15 03:33:18        
+2025-11-15 03:33:18,949 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96477.8, 'ETH/USD': 3178.29, 'BNB/USD': 931.01, 'XRP/USD': 2.2968, 'DOGE/USD': 0.1626, 'SOL/USD': 142.76, 'ARB/USD': 0.2446}
+2025-11-15 03:33:18,949 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 47.9 分钟                                                              
+2025-11-15 03:34:18,978 - alpha_live_trading - INFO -                         
+[迭代 5380] 2025-11-15 03:34:18        
+2025-11-15 03:34:19,214 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96348.0, 'ETH/USD': 3175.99, 'BNB/USD': 930.64, 'XRP/USD': 2.2953, 'DOGE/USD': 0.16241, 'SOL/USD': 142.62, 'ARB/USD': 0.2442}
+2025-11-15 03:34:19,214 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 46.9 分钟                                                              
+2025-11-15 03:34:19,271 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 03:35:19,328 - alpha_live_trading - INFO -                         
+[迭代 5381] 2025-11-15 03:35:19        
+2025-11-15 03:35:19,559 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96405.93, 'ETH/USD': 3178.43, 'BNB/USD': 930.8, 'XRP/USD': 2.2966, 'DOGE/USD': 0.16256, 'SOL/USD': 142.67, 'ARB/USD': 0.2445}
+2025-11-15 03:35:19,559 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 45.9 分钟                                                              
+2025-11-15 03:36:19,619 - alpha_live_trading - INFO -                         
+[迭代 5382] 2025-11-15 03:36:19        
+2025-11-15 03:36:19,848 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96318.45, 'ETH/USD': 3176.5, 'BNB/USD': 930.3, 'XRP/USD': 2.295, 'DOGE/USD': 0.16251, 'SOL/USD': 142.54, 'ARB/USD': 0.2443}
+2025-11-15 03:36:19,849 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 44.9 分钟                                                              
+2025-11-15 03:37:19,878 - alpha_live_trading - INFO -                         
+[迭代 5383] 2025-11-15 03:37:19        
+2025-11-15 03:37:20,129 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96347.02, 'ETH/USD': 3177.28, 'BNB/USD': 930.32, 'XRP/USD': 2.297, 'DOGE/USD': 0.16262, 'SOL/USD': 142.61, 'ARB/USD': 0.2445}
+2025-11-15 03:37:20,129 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 43.9 分钟                                                              
+2025-11-15 03:38:20,168 - alpha_live_trading - INFO -                         
+[迭代 5384] 2025-11-15 03:38:20        
+2025-11-15 03:38:20,395 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96314.21, 'ETH/USD': 3176.73, 'BNB/USD': 930.19, 'XRP/USD': 2.2972, 'DOGE/USD': 0.16264, 'SOL/USD': 142.65, 'ARB/USD': 0.2442}
+2025-11-15 03:38:20,396 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 42.9 分钟                                                              
+2025-11-15 03:39:20,398 - alpha_live_trading - INFO -                         
+[迭代 5385] 2025-11-15 03:39:20        
+2025-11-15 03:39:20,627 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96314.21, 'ETH/USD': 3174.95, 'BNB/USD': 930.71, 'XRP/USD': 2.2975, 'DOGE/USD': 0.16267, 'SOL/USD': 142.64, 'ARB/USD': 0.2443}
+2025-11-15 03:39:20,628 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 41.9 分钟                                                              
+2025-11-15 03:40:20,688 - alpha_live_trading - INFO -                         
+[迭代 5386] 2025-11-15 03:40:20        
+2025-11-15 03:40:20,915 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96209.49, 'ETH/USD': 3170.53, 'BNB/USD': 929.74, 'XRP/USD': 2.2956, 'DOGE/USD': 0.1626, 'SOL/USD': 142.52, 'ARB/USD': 0.2439}
+2025-11-15 03:40:20,915 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 40.9 分钟                                                              
+2025-11-15 03:41:20,948 - alpha_live_trading - INFO -                         
+[迭代 5387] 2025-11-15 03:41:20        
+2025-11-15 03:41:21,169 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96173.28, 'ETH/USD': 3168.79, 'BNB/USD': 929.61, 'XRP/USD': 2.2954, 'DOGE/USD': 0.16256, 'SOL/USD': 142.54, 'ARB/USD': 0.2439}
+2025-11-15 03:41:21,169 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 39.9 分钟                                                              
+2025-11-15 03:42:21,229 - alpha_live_trading - INFO -                         
+[迭代 5388] 2025-11-15 03:42:21        
+2025-11-15 03:42:21,455 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96179.11, 'ETH/USD': 3170.3, 'BNB/USD': 929.99, 'XRP/USD': 2.2948, 'DOGE/USD': 0.1627, 'SOL/USD': 142.61, 'ARB/USD': 0.2439}
+2025-11-15 03:42:21,455 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 38.9 分钟                                                              
+2025-11-15 03:43:21,515 - alpha_live_trading - INFO -                         
+[迭代 5389] 2025-11-15 03:43:21        
+2025-11-15 03:43:21,745 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96217.64, 'ETH/USD': 3173.22, 'BNB/USD': 930.02, 'XRP/USD': 2.2948, 'DOGE/USD': 0.16285, 'SOL/USD': 142.71, 'ARB/USD': 0.244}
+2025-11-15 03:43:21,746 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 37.9 分钟                                                              
+2025-11-15 03:44:21,806 - alpha_live_trading - INFO -                         
+[迭代 5390] 2025-11-15 03:44:21        
+2025-11-15 03:44:22,035 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96310.98, 'ETH/USD': 3176.98, 'BNB/USD': 930.86, 'XRP/USD': 2.2967, 'DOGE/USD': 0.16287, 'SOL/USD': 142.86, 'ARB/USD': 0.2444}
+2025-11-15 03:44:22,035 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 36.9 分钟                                                              
+2025-11-15 03:44:22,094 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 03:45:22,118 - alpha_live_trading - INFO -                         
+[迭代 5391] 2025-11-15 03:45:22        
+2025-11-15 03:45:22,358 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96330.3, 'ETH/USD': 3175.83, 'BNB/USD': 930.62, 'XRP/USD': 2.2963, 'DOGE/USD': 0.16288, 'SOL/USD': 142.84, 'ARB/USD': 0.2444}
+2025-11-15 03:45:22,358 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 35.9 分钟                                                              
+2025-11-15 03:46:22,418 - alpha_live_trading - INFO -                         
+[迭代 5392] 2025-11-15 03:46:22        
+2025-11-15 03:46:22,651 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96325.35, 'ETH/USD': 3176.07, 'BNB/USD': 930.45, 'XRP/USD': 2.2963, 'DOGE/USD': 0.16288, 'SOL/USD': 142.76, 'ARB/USD': 0.2444}
+2025-11-15 03:46:22,651 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 34.9 分钟                                                              
+2025-11-15 03:47:22,712 - alpha_live_trading - INFO -                         
+[迭代 5393] 2025-11-15 03:47:22        
+2025-11-15 03:47:22,942 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96224.11, 'ETH/USD': 3174.33, 'BNB/USD': 930.62, 'XRP/USD': 2.2924, 'DOGE/USD': 0.16265, 'SOL/USD': 142.63, 'ARB/USD': 0.2441}
+2025-11-15 03:47:22,942 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 33.9 分钟                                                              
+2025-11-15 03:48:22,968 - alpha_live_trading - INFO -                         
+[迭代 5394] 2025-11-15 03:48:22        
+2025-11-15 03:48:23,208 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96250.57, 'ETH/USD': 3174.84, 'BNB/USD': 930.72, 'XRP/USD': 2.2931, 'DOGE/USD': 0.16265, 'SOL/USD': 142.6, 'ARB/USD': 0.2441}
+2025-11-15 03:48:23,208 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 32.9 分钟                                                              
+2025-11-15 03:49:23,208 - alpha_live_trading - INFO -                         
+[迭代 5395] 2025-11-15 03:49:23        
+2025-11-15 03:49:23,436 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96270.0, 'ETH/USD': 3176.07, 'BNB/USD': 931.36, 'XRP/USD': 2.2946, 'DOGE/USD': 0.16284, 'SOL/USD': 142.71, 'ARB/USD': 0.2441}
+2025-11-15 03:49:23,436 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 31.9 分钟                                                              
+2025-11-15 03:50:23,491 - alpha_live_trading - INFO -                         
+[迭代 5396] 2025-11-15 03:50:23        
+2025-11-15 03:50:23,712 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96281.96, 'ETH/USD': 3177.71, 'BNB/USD': 931.57, 'XRP/USD': 2.2957, 'DOGE/USD': 0.16287, 'SOL/USD': 142.7, 'ARB/USD': 0.2443}
+2025-11-15 03:50:23,712 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 30.9 分钟                                                              
+2025-11-15 03:51:23,748 - alpha_live_trading - INFO -                         
+[迭代 5397] 2025-11-15 03:51:23        
+2025-11-15 03:51:23,979 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96294.35, 'ETH/USD': 3177.59, 'BNB/USD': 931.56, 'XRP/USD': 2.2958, 'DOGE/USD': 0.16283, 'SOL/USD': 142.71, 'ARB/USD': 0.2442}
+2025-11-15 03:51:23,979 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 29.9 分钟                                                              
+2025-11-15 03:52:24,039 - alpha_live_trading - INFO -                         
+[迭代 5398] 2025-11-15 03:52:24        
+2025-11-15 03:52:24,261 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96280.01, 'ETH/USD': 3175.99, 'BNB/USD': 931.11, 'XRP/USD': 2.2959, 'DOGE/USD': 0.16277, 'SOL/USD': 142.67, 'ARB/USD': 0.2439}
+2025-11-15 03:52:24,261 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 28.9 分钟                                                              
+2025-11-15 03:53:24,308 - alpha_live_trading - INFO -                         
+[迭代 5399] 2025-11-15 03:53:24        
+2025-11-15 03:53:24,539 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96270.16, 'ETH/USD': 3174.72, 'BNB/USD': 931.0, 'XRP/USD': 2.2964, 'DOGE/USD': 0.16265, 'SOL/USD': 142.6, 'ARB/USD': 0.2439}
+2025-11-15 03:53:24,539 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 27.8 分钟                                                              
+2025-11-15 03:54:24,558 - alpha_live_trading - INFO -                         
+[迭代 5400] 2025-11-15 03:54:24        
+2025-11-15 03:54:24,796 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96293.05, 'ETH/USD': 3175.24, 'BNB/USD': 931.3, 'XRP/USD': 2.2952, 'DOGE/USD': 0.16258, 'SOL/USD': 142.6, 'ARB/USD': 0.2438}
+2025-11-15 03:54:24,796 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 26.8 分钟                                                              
+2025-11-15 03:54:24,854 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 03:55:24,878 - alpha_live_trading - INFO -                         
+[迭代 5401] 2025-11-15 03:55:24        
+2025-11-15 03:55:25,107 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96334.56, 'ETH/USD': 3176.99, 'BNB/USD': 931.89, 'XRP/USD': 2.2968, 'DOGE/USD': 0.163, 'SOL/USD': 142.73, 'ARB/USD': 0.2439}
+2025-11-15 03:55:25,107 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 25.8 分钟                                                              
+2025-11-15 03:56:25,167 - alpha_live_trading - INFO -                         
+[迭代 5402] 2025-11-15 03:56:25        
+2025-11-15 03:56:25,402 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96370.65, 'ETH/USD': 3178.03, 'BNB/USD': 932.24, 'XRP/USD': 2.2964, 'DOGE/USD': 0.16289, 'SOL/USD': 142.78, 'ARB/USD': 0.2439}
+2025-11-15 03:56:25,402 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 24.8 分钟                                                              
+2025-11-15 03:57:25,462 - alpha_live_trading - INFO -                         
+[迭代 5403] 2025-11-15 03:57:25        
+2025-11-15 03:57:25,693 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96380.74, 'ETH/USD': 3178.94, 'BNB/USD': 932.3, 'XRP/USD': 2.295, 'DOGE/USD': 0.16285, 'SOL/USD': 142.62, 'ARB/USD': 0.2443}
+2025-11-15 03:57:25,693 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 23.8 分钟                                                              
+2025-11-15 03:58:25,708 - alpha_live_trading - INFO -                         
+[迭代 5404] 2025-11-15 03:58:25        
+2025-11-15 03:58:25,949 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96410.29, 'ETH/USD': 3179.18, 'BNB/USD': 932.37, 'XRP/USD': 2.2942, 'DOGE/USD': 0.16286, 'SOL/USD': 142.56, 'ARB/USD': 0.2444}
+2025-11-15 03:58:25,949 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 22.8 分钟                                                              
+2025-11-15 03:59:26,009 - alpha_live_trading - INFO -                         
+[迭代 5405] 2025-11-15 03:59:26        
+2025-11-15 03:59:26,243 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96412.76, 'ETH/USD': 3179.16, 'BNB/USD': 932.01, 'XRP/USD': 2.2942, 'DOGE/USD': 0.16287, 'SOL/USD': 142.54, 'ARB/USD': 0.2443}
+2025-11-15 03:59:26,243 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 21.8 分钟                                                              
+2025-11-15 04:00:26,258 - alpha_live_trading - INFO -                         
+[迭代 5406] 2025-11-15 04:00:26        
+2025-11-15 04:00:26,499 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96381.59, 'ETH/USD': 3179.91, 'BNB/USD': 931.74, 'XRP/USD': 2.2948, 'DOGE/USD': 0.16305, 'SOL/USD': 142.65, 'ARB/USD': 0.2447}
+2025-11-15 04:00:26,499 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 20.8 分钟                                                              
+2025-11-15 04:01:26,559 - alpha_live_trading - INFO -                         
+[迭代 5407] 2025-11-15 04:01:26        
+2025-11-15 04:01:26,789 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96360.33, 'ETH/USD': 3179.28, 'BNB/USD': 931.59, 'XRP/USD': 2.2945, 'DOGE/USD': 0.16292, 'SOL/USD': 142.6, 'ARB/USD': 0.2445}
+2025-11-15 04:01:26,789 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 19.8 分钟                                                              
+2025-11-15 04:02:26,849 - alpha_live_trading - INFO -                         
+[迭代 5408] 2025-11-15 04:02:26        
+2025-11-15 04:02:27,099 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96383.56, 'ETH/USD': 3180.65, 'BNB/USD': 931.94, 'XRP/USD': 2.2941, 'DOGE/USD': 0.16282, 'SOL/USD': 142.66, 'ARB/USD': 0.2446}
+2025-11-15 04:02:27,099 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 18.8 分钟                                                              
+2025-11-15 04:03:27,118 - alpha_live_trading - INFO -                         
+[迭代 5409] 2025-11-15 04:03:27        
+2025-11-15 04:03:27,350 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96328.97, 'ETH/USD': 3179.58, 'BNB/USD': 931.41, 'XRP/USD': 2.2921, 'DOGE/USD': 0.16274, 'SOL/USD': 142.5, 'ARB/USD': 0.2446}
+2025-11-15 04:03:27,350 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 17.8 分钟                                                              
+2025-11-15 04:04:27,398 - alpha_live_trading - INFO -                         
+[迭代 5410] 2025-11-15 04:04:27        
+2025-11-15 04:04:27,635 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96293.06, 'ETH/USD': 3180.49, 'BNB/USD': 931.5, 'XRP/USD': 2.292, 'DOGE/USD': 0.16276, 'SOL/USD': 142.52, 'ARB/USD': 0.2447}
+2025-11-15 04:04:27,635 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 16.8 分钟                                                              
+2025-11-15 04:04:27,693 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 04:05:27,753 - alpha_live_trading - INFO -                         
+[迭代 5411] 2025-11-15 04:05:27        
+2025-11-15 04:05:27,990 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96332.19, 'ETH/USD': 3182.32, 'BNB/USD': 932.45, 'XRP/USD': 2.2922, 'DOGE/USD': 0.16275, 'SOL/USD': 142.58, 'ARB/USD': 0.2447}
+2025-11-15 04:05:27,990 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 15.8 分钟                                                              
+2025-11-15 04:06:28,050 - alpha_live_trading - INFO -                         
+[迭代 5412] 2025-11-15 04:06:28        
+2025-11-15 04:06:28,279 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96191.78, 'ETH/USD': 3176.41, 'BNB/USD': 931.89, 'XRP/USD': 2.29, 'DOGE/USD': 0.16257, 'SOL/USD': 142.34, 'ARB/USD': 0.2443}
+2025-11-15 04:06:28,279 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 14.8 分钟                                                              
+2025-11-15 04:07:28,340 - alpha_live_trading - INFO -                         
+[迭代 5413] 2025-11-15 04:07:28        
+2025-11-15 04:07:28,580 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96187.95, 'ETH/USD': 3175.96, 'BNB/USD': 932.07, 'XRP/USD': 2.2897, 'DOGE/USD': 0.16261, 'SOL/USD': 142.32, 'ARB/USD': 0.2445}
+2025-11-15 04:07:28,580 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 13.8 分钟                                                              
+2025-11-15 04:08:28,638 - alpha_live_trading - INFO -                         
+[迭代 5414] 2025-11-15 04:08:28        
+2025-11-15 04:08:28,879 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96174.0, 'ETH/USD': 3176.11, 'BNB/USD': 932.03, 'XRP/USD': 2.2886, 'DOGE/USD': 0.16259, 'SOL/USD': 142.28, 'ARB/USD': 0.2443}
+2025-11-15 04:08:28,879 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 12.8 分钟                                                              
+2025-11-15 04:09:28,940 - alpha_live_trading - INFO -                         
+[迭代 5415] 2025-11-15 04:09:28        
+2025-11-15 04:09:29,175 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96136.44, 'ETH/USD': 3174.2, 'BNB/USD': 931.91, 'XRP/USD': 2.2884, 'DOGE/USD': 0.16257, 'SOL/USD': 142.32, 'ARB/USD': 0.2444}
+2025-11-15 04:09:29,175 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 11.8 分钟                                                              
+2025-11-15 04:10:29,198 - alpha_live_trading - INFO -                         
+[迭代 5416] 2025-11-15 04:10:29        
+2025-11-15 04:10:29,422 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96146.64, 'ETH/USD': 3175.75, 'BNB/USD': 932.05, 'XRP/USD': 2.2871, 'DOGE/USD': 0.16258, 'SOL/USD': 142.44, 'ARB/USD': 0.2444}
+2025-11-15 04:10:29,422 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 10.8 分钟                                                              
+2025-11-15 04:11:29,478 - alpha_live_trading - INFO -                         
+[迭代 5417] 2025-11-15 04:11:29        
+2025-11-15 04:11:29,739 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96200.0, 'ETH/USD': 3179.11, 'BNB/USD': 932.1, 'XRP/USD': 2.289, 'DOGE/USD': 0.16262, 'SOL/USD': 142.57, 'ARB/USD': 0.2444}
+2025-11-15 04:11:29,739 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 9.8 分钟                                                               
+2025-11-15 04:12:29,758 - alpha_live_trading - INFO -                         
+[迭代 5418] 2025-11-15 04:12:29        
+2025-11-15 04:12:29,989 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96201.7, 'ETH/USD': 3178.82, 'BNB/USD': 932.03, 'XRP/USD': 2.2889, 'DOGE/USD': 0.16259, 'SOL/USD': 142.52, 'ARB/USD': 0.2447}
+2025-11-15 04:12:29,989 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 8.8 分钟                                                               
+2025-11-15 04:13:30,038 - alpha_live_trading - INFO -                         
+[迭代 5419] 2025-11-15 04:13:30        
+2025-11-15 04:13:30,263 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96224.2, 'ETH/USD': 3178.82, 'BNB/USD': 932.04, 'XRP/USD': 2.288, 'DOGE/USD': 0.16248, 'SOL/USD': 142.49, 'ARB/USD': 0.2446}
+2025-11-15 04:13:30,263 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 7.8 分钟                                                               
+2025-11-15 04:14:30,323 - alpha_live_trading - INFO -                         
+[迭代 5420] 2025-11-15 04:14:30        
+2025-11-15 04:14:30,558 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96309.94, 'ETH/USD': 3183.82, 'BNB/USD': 932.68, 'XRP/USD': 2.2908, 'DOGE/USD': 0.16279, 'SOL/USD': 142.76, 'ARB/USD': 0.245}
+2025-11-15 04:14:30,559 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 6.7 分钟                                                               
+2025-11-15 04:14:30,615 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 04:15:30,658 - alpha_live_trading - INFO -                         
+[迭代 5421] 2025-11-15 04:15:30        
+2025-11-15 04:15:30,891 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96282.85, 'ETH/USD': 3182.15, 'BNB/USD': 931.7, 'XRP/USD': 2.2894, 'DOGE/USD': 0.16263, 'SOL/USD': 142.68, 'ARB/USD': 0.2449}
+2025-11-15 04:15:30,891 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 5.7 分钟                                                               
+2025-11-15 04:16:30,951 - alpha_live_trading - INFO -                         
+[迭代 5422] 2025-11-15 04:16:30        
+2025-11-15 04:16:31,175 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96324.65, 'ETH/USD': 3182.89, 'BNB/USD': 931.98, 'XRP/USD': 2.2903, 'DOGE/USD': 0.16285, 'SOL/USD': 142.74, 'ARB/USD': 0.2452}
+2025-11-15 04:16:31,176 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 4.7 分钟                                                               
+2025-11-15 04:17:31,218 - alpha_live_trading - INFO -                         
+[迭代 5423] 2025-11-15 04:17:31        
+2025-11-15 04:17:31,441 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96489.19, 'ETH/USD': 3190.53, 'BNB/USD': 933.0, 'XRP/USD': 2.2949, 'DOGE/USD': 0.16328, 'SOL/USD': 143.01, 'ARB/USD': 0.2457}
+2025-11-15 04:17:31,441 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 3.7 分钟                                                               
+2025-11-15 04:18:31,502 - alpha_live_trading - INFO -                         
+[迭代 5424] 2025-11-15 04:18:31        
+2025-11-15 04:18:31,741 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96465.58, 'ETH/USD': 3189.1, 'BNB/USD': 933.15, 'XRP/USD': 2.2938, 'DOGE/USD': 0.16313, 'SOL/USD': 142.96, 'ARB/USD': 0.2455}
+2025-11-15 04:18:31,741 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 2.7 分钟                                                               
+2025-11-15 04:19:31,778 - alpha_live_trading - INFO -                         
+[迭代 5425] 2025-11-15 04:19:31        
+2025-11-15 04:19:32,010 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96476.17, 'ETH/USD': 3188.73, 'BNB/USD': 933.59, 'XRP/USD': 2.2959, 'DOGE/USD': 0.16321, 'SOL/USD': 143.02, 'ARB/USD': 0.2458}
+2025-11-15 04:19:32,011 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 1.7 分钟                                                               
+2025-11-15 04:20:32,058 - alpha_live_trading - INFO -                         
+[迭代 5426] 2025-11-15 04:20:32        
+2025-11-15 04:20:32,296 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96485.72, 'ETH/USD': 3187.54, 'BNB/USD': 933.51, 'XRP/USD': 2.2946, 'DOGE/USD': 0.16308, 'SOL/USD': 142.94, 'ARB/USD': 0.2455}
+2025-11-15 04:20:32,296 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 0.7 分钟                                                               
+2025-11-15 04:21:32,318 - alpha_live_trading - INFO -                         
+[迭代 5427] 2025-11-15 04:21:32        
+2025-11-15 04:21:32,561 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96452.01, 'ETH/USD': 3184.67, 'BNB/USD': 932.88, 'XRP/USD': 2.2941, 'DOGE/USD': 0.16301, 'SOL/USD': 142.81, 'ARB/USD': 0.2455}
+2025-11-15 04:21:32,561 - alpha_live_trading - INFO - ======================================================================                                 
+2025-11-15 04:21:32,561 - alpha_live_trading - INFO - [再平衡] 开始执行...    
+/home/ssm-user/alpha_trading/alpha_live_trading.py:472: FutureWarning: The default fill_method='pad' in DataFrame.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.             
+  momentum_20 = price_df.pct_change(20).iloc[-1]                              
+/home/ssm-user/alpha_trading/alpha_live_trading.py:477: FutureWarning: The default fill_method='pad' in DataFrame.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.             
+  reversal_5 = -price_df.pct_change(5).iloc[-1]                               
+/home/ssm-user/alpha_trading/alpha_live_trading.py:482: FutureWarning: The default fill_method='pad' in DataFrame.pct_change is deprecated and will be removed in a future version. Either fill in any non-leading NA values prior to calling pct_change or specify 'fill_method=None' to not fill NA values.             
+  volatility = price_df.pct_change().tail(20).std()                           
+2025-11-15 04:21:32,597 - alpha_live_trading - INFO - [Alpha计算] 信号值: {'BTC/USD': -0.4165699862880485, 'ETH/USD': 0.3702033731360379, 'BNB/USD': 0.0766656498974079, 'XRP/USD': -1.4082877799992743, 'DOGE/USD': -0.6552378404720167, 'SOL/USD': 0.2407564361023113, 'ARB/USD': 1.7924701476235818}                   
+2025-11-15 04:21:32,599 - alpha_live_trading - INFO - [权重计算] 目标权重: {'BTC/USD': 0.0, 'ETH/USD': np.float64(0.25858436230635967), 'BNB/USD': np.float64(0.053550398586560057), 'XRP/USD': 0.0, 'DOGE/USD': 0.0, 'SOL/USD': np.float64(0.16816661872443545), 'ARB/USD': np.float64(0.5196986203826447)}              
+2025-11-15 04:21:33,301 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96458.28, 'ETH/USD': 3185.15, 'BNB/USD': 932.95, 'XRP/USD': 2.2941, 'DOGE/USD': 0.16304, 'SOL/USD': 142.84, 'ARB/USD': 0.2455}
+2025-11-15 04:21:33,523 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96458.28, 'ETH/USD': 3185.15, 'BNB/USD': 932.95, 'XRP/USD': 2.2944, 'DOGE/USD': 0.16304, 'SOL/USD': 142.84, 'ARB/USD': 0.2456}
+2025-11-15 04:21:33,523 - alpha_live_trading - INFO - [再平衡] 组合价值: $0.00                                                                               
+2025-11-15 04:21:33,523 - alpha_live_trading - INFO - [再平衡] 当前持仓: {}   
+2025-11-15 04:21:33,523 - alpha_live_trading - INFO - [再平衡] 完成           
+2025-11-15 04:21:33,524 - alpha_live_trading - INFO - ======================================================================                                 
+2025-11-15 04:22:33,578 - alpha_live_trading - INFO -                         
+[迭代 5428] 2025-11-15 04:22:33        
+2025-11-15 04:22:33,816 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96327.63, 'ETH/USD': 3180.64, 'BNB/USD': 933.06, 'XRP/USD': 2.2917, 'DOGE/USD': 0.16291, 'SOL/USD': 142.62, 'ARB/USD': 0.2454}
+2025-11-15 04:22:33,816 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 59.0 分钟                                                              
+2025-11-15 04:23:33,877 - alpha_live_trading - INFO -                         
+[迭代 5429] 2025-11-15 04:23:33        
+2025-11-15 04:23:34,101 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96260.0, 'ETH/USD': 3179.4, 'BNB/USD': 932.52, 'XRP/USD': 2.2905, 'DOGE/USD': 0.16272, 'SOL/USD': 142.44, 'ARB/USD': 0.2451}
+2025-11-15 04:23:34,101 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 58.0 分钟                                                              
+2025-11-15 04:24:34,162 - alpha_live_trading - INFO -                         
+[迭代 5430] 2025-11-15 04:24:34        
+2025-11-15 04:24:34,393 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96308.81, 'ETH/USD': 3180.82, 'BNB/USD': 932.72, 'XRP/USD': 2.2917, 'DOGE/USD': 0.16275, 'SOL/USD': 142.6, 'ARB/USD': 0.2453}
+2025-11-15 04:24:34,393 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 57.0 分钟                                                              
+2025-11-15 04:24:34,450 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 04:25:34,478 - alpha_live_trading - INFO -                         
+[迭代 5431] 2025-11-15 04:25:34        
+2025-11-15 04:25:34,707 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96224.94, 'ETH/USD': 3175.73, 'BNB/USD': 931.9, 'XRP/USD': 2.2894, 'DOGE/USD': 0.16252, 'SOL/USD': 142.47, 'ARB/USD': 0.2448}
+2025-11-15 04:25:34,707 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 56.0 分钟                                                              
+2025-11-15 04:26:34,767 - alpha_live_trading - INFO -                         
+[迭代 5432] 2025-11-15 04:26:34        
+2025-11-15 04:26:35,003 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96212.91, 'ETH/USD': 3174.0, 'BNB/USD': 931.71, 'XRP/USD': 2.2873, 'DOGE/USD': 0.16249, 'SOL/USD': 142.46, 'ARB/USD': 0.245}
+2025-11-15 04:26:35,003 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 55.0 分钟                                                              
+2025-11-15 04:27:35,038 - alpha_live_trading - INFO -                         
+[迭代 5433] 2025-11-15 04:27:35        
+2025-11-15 04:27:35,278 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96130.33, 'ETH/USD': 3173.35, 'BNB/USD': 931.79, 'XRP/USD': 2.2862, 'DOGE/USD': 0.16248, 'SOL/USD': 142.42, 'ARB/USD': 0.245}
+2025-11-15 04:27:35,278 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 54.0 分钟                                                              
+2025-11-15 04:28:35,318 - alpha_live_trading - INFO -                         
+[迭代 5434] 2025-11-15 04:28:35        
+2025-11-15 04:28:35,552 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96100.0, 'ETH/USD': 3173.14, 'BNB/USD': 931.97, 'XRP/USD': 2.2853, 'DOGE/USD': 0.16254, 'SOL/USD': 142.34, 'ARB/USD': 0.245}
+2025-11-15 04:28:35,552 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 53.0 分钟                                                              
+2025-11-15 04:29:35,598 - alpha_live_trading - INFO -                         
+[迭代 5435] 2025-11-15 04:29:35        
+2025-11-15 04:29:35,824 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96076.43, 'ETH/USD': 3172.38, 'BNB/USD': 931.92, 'XRP/USD': 2.2853, 'DOGE/USD': 0.16253, 'SOL/USD': 142.29, 'ARB/USD': 0.245}
+2025-11-15 04:29:35,824 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 52.0 分钟                                                              
+2025-11-15 04:30:35,884 - alpha_live_trading - INFO -                         
+[迭代 5436] 2025-11-15 04:30:35        
+2025-11-15 04:30:36,114 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96106.01, 'ETH/USD': 3171.26, 'BNB/USD': 931.79, 'XRP/USD': 2.2843, 'DOGE/USD': 0.16256, 'SOL/USD': 142.13, 'ARB/USD': 0.2449}
+2025-11-15 04:30:36,115 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 51.0 分钟                                                              
+2025-11-15 04:31:36,175 - alpha_live_trading - INFO -                         
+[迭代 5437] 2025-11-15 04:31:36        
+2025-11-15 04:31:36,408 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96051.51, 'ETH/USD': 3168.09, 'BNB/USD': 931.51, 'XRP/USD': 2.283, 'DOGE/USD': 0.16245, 'SOL/USD': 142.12, 'ARB/USD': 0.2447}
+2025-11-15 04:31:36,408 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 50.0 分钟                                                              
+2025-11-15 04:32:36,448 - alpha_live_trading - INFO -                         
+[迭代 5438] 2025-11-15 04:32:36        
+2025-11-15 04:32:36,675 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96050.35, 'ETH/USD': 3167.91, 'BNB/USD': 931.65, 'XRP/USD': 2.2826, 'DOGE/USD': 0.16252, 'SOL/USD': 142.07, 'ARB/USD': 0.2448}
+2025-11-15 04:32:36,676 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 48.9 分钟                                                              
+2025-11-15 04:33:36,736 - alpha_live_trading - INFO -                         
+[迭代 5439] 2025-11-15 04:33:36        
+2025-11-15 04:33:36,963 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96053.72, 'ETH/USD': 3168.32, 'BNB/USD': 931.81, 'XRP/USD': 2.282, 'DOGE/USD': 0.16254, 'SOL/USD': 142.06, 'ARB/USD': 0.2448}
+2025-11-15 04:33:36,963 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 47.9 分钟                                                              
+2025-11-15 04:34:36,998 - alpha_live_trading - INFO -                         
+[迭代 5440] 2025-11-15 04:34:36        
+2025-11-15 04:34:37,236 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96037.58, 'ETH/USD': 3169.99, 'BNB/USD': 931.5, 'XRP/USD': 2.2835, 'DOGE/USD': 0.16255, 'SOL/USD': 141.99, 'ARB/USD': 0.2446}
+2025-11-15 04:34:37,236 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 46.9 分钟                                                              
+2025-11-15 04:34:37,297 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 04:35:37,338 - alpha_live_trading - INFO -                         
+[迭代 5441] 2025-11-15 04:35:37        
+2025-11-15 04:35:37,565 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96053.71, 'ETH/USD': 3170.53, 'BNB/USD': 931.51, 'XRP/USD': 2.2846, 'DOGE/USD': 0.16255, 'SOL/USD': 142.04, 'ARB/USD': 0.2447}
+2025-11-15 04:35:37,565 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 45.9 分钟                                                              
+2025-11-15 04:36:37,618 - alpha_live_trading - INFO -                         
+[迭代 5442] 2025-11-15 04:36:37        
+2025-11-15 04:36:37,850 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96156.77, 'ETH/USD': 3171.92, 'BNB/USD': 931.8, 'XRP/USD': 2.2864, 'DOGE/USD': 0.16275, 'SOL/USD': 142.12, 'ARB/USD': 0.2449}
+2025-11-15 04:36:37,851 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 44.9 分钟                                                              
+2025-11-15 04:37:37,898 - alpha_live_trading - INFO -                         
+[迭代 5443] 2025-11-15 04:37:37        
+2025-11-15 04:37:38,131 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96134.85, 'ETH/USD': 3172.12, 'BNB/USD': 931.5, 'XRP/USD': 2.2864, 'DOGE/USD': 0.16275, 'SOL/USD': 142.09, 'ARB/USD': 0.2451}
+2025-11-15 04:37:38,132 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 43.9 分钟                                                              
+2025-11-15 04:38:38,138 - alpha_live_trading - INFO -                         
+[迭代 5444] 2025-11-15 04:38:38        
+2025-11-15 04:38:38,365 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96094.28, 'ETH/USD': 3170.86, 'BNB/USD': 931.5, 'XRP/USD': 2.2856, 'DOGE/USD': 0.16261, 'SOL/USD': 142.04, 'ARB/USD': 0.2448}
+2025-11-15 04:38:38,365 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 42.9 分钟                                                              
+2025-11-15 04:39:38,398 - alpha_live_trading - INFO -                         
+[迭代 5445] 2025-11-15 04:39:38        
+2025-11-15 04:39:38,630 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96020.87, 'ETH/USD': 3169.77, 'BNB/USD': 931.5, 'XRP/USD': 2.2853, 'DOGE/USD': 0.16258, 'SOL/USD': 142.02, 'ARB/USD': 0.2447}
+2025-11-15 04:39:38,630 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 41.9 分钟                                                              
+2025-11-15 04:40:38,688 - alpha_live_trading - INFO -                         
+[迭代 5446] 2025-11-15 04:40:38        
+2025-11-15 04:40:38,921 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96014.79, 'ETH/USD': 3167.45, 'BNB/USD': 930.22, 'XRP/USD': 2.2841, 'DOGE/USD': 0.16252, 'SOL/USD': 142.01, 'ARB/USD': 0.2445}
+2025-11-15 04:40:38,921 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 40.9 分钟                                                              
+2025-11-15 04:41:38,981 - alpha_live_trading - INFO -                         
+[迭代 5447] 2025-11-15 04:41:38        
+2025-11-15 04:41:39,204 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96045.17, 'ETH/USD': 3167.97, 'BNB/USD': 929.61, 'XRP/USD': 2.2841, 'DOGE/USD': 0.16263, 'SOL/USD': 142.04, 'ARB/USD': 0.2444}
+2025-11-15 04:41:39,205 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 39.9 分钟                                                              
+2025-11-15 04:42:39,238 - alpha_live_trading - INFO -                         
+[迭代 5448] 2025-11-15 04:42:39        
+2025-11-15 04:42:39,478 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96031.6, 'ETH/USD': 3165.61, 'BNB/USD': 928.6, 'XRP/USD': 2.2815, 'DOGE/USD': 0.16243, 'SOL/USD': 141.95, 'ARB/USD': 0.2443}
+2025-11-15 04:42:39,478 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 38.9 分钟                                                              
+2025-11-15 04:43:39,518 - alpha_live_trading - INFO -                         
+[迭代 5449] 2025-11-15 04:43:39        
+2025-11-15 04:43:39,741 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95982.04, 'ETH/USD': 3164.01, 'BNB/USD': 928.15, 'XRP/USD': 2.2805, 'DOGE/USD': 0.1624, 'SOL/USD': 141.9, 'ARB/USD': 0.2442}
+2025-11-15 04:43:39,741 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 37.9 分钟                                                              
+2025-11-15 04:44:39,801 - alpha_live_trading - INFO -                         
+[迭代 5450] 2025-11-15 04:44:39        
+2025-11-15 04:44:40,024 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95974.93, 'ETH/USD': 3164.45, 'BNB/USD': 927.78, 'XRP/USD': 2.2793, 'DOGE/USD': 0.1624, 'SOL/USD': 141.93, 'ARB/USD': 0.2441}
+2025-11-15 04:44:40,025 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 36.9 分钟                                                              
+2025-11-15 04:44:40,082 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 04:45:40,118 - alpha_live_trading - INFO -                         
+[迭代 5451] 2025-11-15 04:45:40        
+2025-11-15 04:45:40,351 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95978.01, 'ETH/USD': 3162.01, 'BNB/USD': 927.75, 'XRP/USD': 2.2781, 'DOGE/USD': 0.16234, 'SOL/USD': 141.96, 'ARB/USD': 0.2441}
+2025-11-15 04:45:40,352 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 35.9 分钟                                                              
+2025-11-15 04:46:40,358 - alpha_live_trading - INFO -                         
+[迭代 5452] 2025-11-15 04:46:40        
+2025-11-15 04:46:40,600 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96005.7, 'ETH/USD': 3162.74, 'BNB/USD': 927.25, 'XRP/USD': 2.2783, 'DOGE/USD': 0.16241, 'SOL/USD': 141.95, 'ARB/USD': 0.2443}
+2025-11-15 04:46:40,600 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 34.9 分钟                                                              
+2025-11-15 04:47:40,660 - alpha_live_trading - INFO -                         
+[迭代 5453] 2025-11-15 04:47:40        
+2025-11-15 04:47:40,885 - alpha_live_trading - WARNING - 获取价格失败         
+2025-11-15 04:47:40,885 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 33.9 分钟                                                              
+2025-11-15 04:48:40,945 - alpha_live_trading - INFO -                         
+[迭代 5454] 2025-11-15 04:48:40        
+2025-11-15 04:48:41,173 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96010.0, 'ETH/USD': 3163.02, 'BNB/USD': 927.39, 'XRP/USD': 2.2778, 'DOGE/USD': 0.16236, 'SOL/USD': 142.13, 'ARB/USD': 0.2443}
+2025-11-15 04:48:41,173 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 32.9 分钟                                                              
+2025-11-15 04:49:41,233 - alpha_live_trading - INFO -                         
+[迭代 5455] 2025-11-15 04:49:41        
+2025-11-15 04:49:41,460 - alpha_live_trading - WARNING - 获取价格失败         
+2025-11-15 04:49:41,461 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 31.9 分钟                                                              
+2025-11-15 04:50:41,478 - alpha_live_trading - INFO -                         
+[迭代 5456] 2025-11-15 04:50:41        
+2025-11-15 04:50:41,705 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96016.96, 'ETH/USD': 3164.54, 'BNB/USD': 927.2, 'XRP/USD': 2.2777, 'DOGE/USD': 0.16243, 'SOL/USD': 142.11, 'ARB/USD': 0.2445}
+2025-11-15 04:50:41,705 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 30.9 分钟                                                              
+2025-11-15 04:51:41,738 - alpha_live_trading - INFO -                         
+[迭代 5457] 2025-11-15 04:51:41        
+2025-11-15 04:51:41,966 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96016.22, 'ETH/USD': 3164.14, 'BNB/USD': 927.14, 'XRP/USD': 2.2775, 'DOGE/USD': 0.16241, 'SOL/USD': 142.11, 'ARB/USD': 0.2443}
+2025-11-15 04:51:41,967 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 29.9 分钟                                                              
+2025-11-15 04:52:41,988 - alpha_live_trading - INFO -                         
+[迭代 5458] 2025-11-15 04:52:41        
+2025-11-15 04:52:42,211 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96044.98, 'ETH/USD': 3166.01, 'BNB/USD': 927.01, 'XRP/USD': 2.278, 'DOGE/USD': 0.1624, 'SOL/USD': 142.15, 'ARB/USD': 0.2442}
+2025-11-15 04:52:42,212 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 28.9 分钟                                                              
+2025-11-15 04:53:42,268 - alpha_live_trading - INFO -                         
+[迭代 5459] 2025-11-15 04:53:42        
+2025-11-15 04:53:42,497 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96040.0, 'ETH/USD': 3168.23, 'BNB/USD': 927.86, 'XRP/USD': 2.2792, 'DOGE/USD': 0.16244, 'SOL/USD': 142.25, 'ARB/USD': 0.2444}
+2025-11-15 04:53:42,497 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 27.9 分钟                                                              
+2025-11-15 04:54:42,557 - alpha_live_trading - INFO -                         
+[迭代 5460] 2025-11-15 04:54:42        
+2025-11-15 04:54:42,786 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96118.65, 'ETH/USD': 3171.44, 'BNB/USD': 928.41, 'XRP/USD': 2.281, 'DOGE/USD': 0.16261, 'SOL/USD': 142.38, 'ARB/USD': 0.2447}
+2025-11-15 04:54:42,786 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 26.8 分钟                                                              
+2025-11-15 04:54:42,842 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 04:55:42,878 - alpha_live_trading - INFO -                         
+[迭代 5461] 2025-11-15 04:55:42        
+2025-11-15 04:55:43,110 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96200.0, 'ETH/USD': 3174.9, 'BNB/USD': 928.69, 'XRP/USD': 2.2831, 'DOGE/USD': 0.16269, 'SOL/USD': 142.57, 'ARB/USD': 0.2449}
+2025-11-15 04:55:43,111 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 25.8 分钟                                                              
+2025-11-15 04:56:43,118 - alpha_live_trading - INFO -                         
+[迭代 5462] 2025-11-15 04:56:43        
+2025-11-15 04:56:43,355 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96133.42, 'ETH/USD': 3172.8, 'BNB/USD': 928.16, 'XRP/USD': 2.2826, 'DOGE/USD': 0.16262, 'SOL/USD': 142.39, 'ARB/USD': 0.2447}
+2025-11-15 04:56:43,355 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 24.8 分钟                                                              
+2025-11-15 04:57:43,368 - alpha_live_trading - INFO -                         
+[迭代 5463] 2025-11-15 04:57:43        
+2025-11-15 04:57:43,597 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96120.46, 'ETH/USD': 3171.85, 'BNB/USD': 927.66, 'XRP/USD': 2.2827, 'DOGE/USD': 0.16245, 'SOL/USD': 142.32, 'ARB/USD': 0.2442}
+2025-11-15 04:57:43,597 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 23.8 分钟                                                              
+2025-11-15 04:58:43,657 - alpha_live_trading - INFO -                         
+[迭代 5464] 2025-11-15 04:58:43        
+2025-11-15 04:58:43,883 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96138.18, 'ETH/USD': 3171.54, 'BNB/USD': 927.6, 'XRP/USD': 2.2822, 'DOGE/USD': 0.1624, 'SOL/USD': 142.3, 'ARB/USD': 0.2442}
+2025-11-15 04:58:43,883 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 22.8 分钟                                                              
+2025-11-15 04:59:43,938 - alpha_live_trading - INFO -                         
+[迭代 5465] 2025-11-15 04:59:43        
+2025-11-15 04:59:44,169 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96112.13, 'ETH/USD': 3172.0, 'BNB/USD': 927.95, 'XRP/USD': 2.2837, 'DOGE/USD': 0.16249, 'SOL/USD': 142.34, 'ARB/USD': 0.2444}
+2025-11-15 04:59:44,169 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 21.8 分钟                                                              
+2025-11-15 05:00:44,229 - alpha_live_trading - INFO -                         
+[迭代 5466] 2025-11-15 05:00:44        
+2025-11-15 05:00:44,457 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96105.23, 'ETH/USD': 3170.16, 'BNB/USD': 927.56, 'XRP/USD': 2.2821, 'DOGE/USD': 0.16242, 'SOL/USD': 142.34, 'ARB/USD': 0.2445}
+2025-11-15 05:00:44,457 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 20.8 分钟                                                              
+2025-11-15 05:01:44,517 - alpha_live_trading - INFO -                         
+[迭代 5467] 2025-11-15 05:01:44        
+2025-11-15 05:01:44,745 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96137.91, 'ETH/USD': 3171.62, 'BNB/USD': 928.4, 'XRP/USD': 2.2828, 'DOGE/USD': 0.16251, 'SOL/USD': 142.45, 'ARB/USD': 0.2445}
+2025-11-15 05:01:44,745 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 19.8 分钟                                                              
+2025-11-15 05:02:44,778 - alpha_live_trading - INFO -                         
+[迭代 5468] 2025-11-15 05:02:44        
+2025-11-15 05:02:45,008 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96105.22, 'ETH/USD': 3170.03, 'BNB/USD': 928.03, 'XRP/USD': 2.2816, 'DOGE/USD': 0.16252, 'SOL/USD': 142.42, 'ARB/USD': 0.2446}
+2025-11-15 05:02:45,009 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 18.8 分钟                                                              
+2025-11-15 05:03:45,068 - alpha_live_trading - INFO -                         
+[迭代 5469] 2025-11-15 05:03:45        
+2025-11-15 05:03:45,306 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96118.32, 'ETH/USD': 3170.78, 'BNB/USD': 928.42, 'XRP/USD': 2.2823, 'DOGE/USD': 0.16252, 'SOL/USD': 142.44, 'ARB/USD': 0.2446}
+2025-11-15 05:03:45,306 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 17.8 分钟                                                              
+2025-11-15 05:04:45,366 - alpha_live_trading - INFO -                         
+[迭代 5470] 2025-11-15 05:04:45        
+2025-11-15 05:04:45,603 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96119.98, 'ETH/USD': 3170.07, 'BNB/USD': 928.88, 'XRP/USD': 2.2829, 'DOGE/USD': 0.16261, 'SOL/USD': 142.49, 'ARB/USD': 0.2445}
+2025-11-15 05:04:45,603 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 16.8 分钟                                                              
+2025-11-15 05:04:45,661 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 05:05:45,721 - alpha_live_trading - INFO -                         
+[迭代 5471] 2025-11-15 05:05:45        
+2025-11-15 05:05:45,949 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96158.52, 'ETH/USD': 3171.62, 'BNB/USD': 929.19, 'XRP/USD': 2.2844, 'DOGE/USD': 0.16256, 'SOL/USD': 142.6, 'ARB/USD': 0.2445}
+2025-11-15 05:05:45,949 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 15.8 分钟                                                              
+2025-11-15 05:06:45,963 - alpha_live_trading - INFO -                         
+[迭代 5472] 2025-11-15 05:06:45        
+2025-11-15 05:06:46,192 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96199.99, 'ETH/USD': 3173.49, 'BNB/USD': 929.37, 'XRP/USD': 2.2857, 'DOGE/USD': 0.16273, 'SOL/USD': 142.75, 'ARB/USD': 0.2446}
+2025-11-15 05:06:46,192 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 14.8 分钟                                                              
+2025-11-15 05:07:46,238 - alpha_live_trading - INFO -                         
+[迭代 5473] 2025-11-15 05:07:46        
+2025-11-15 05:07:46,479 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96177.99, 'ETH/USD': 3173.4, 'BNB/USD': 929.41, 'XRP/USD': 2.285, 'DOGE/USD': 0.16265, 'SOL/USD': 142.67, 'ARB/USD': 0.2447}
+2025-11-15 05:07:46,479 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 13.8 分钟                                                              
+2025-11-15 05:08:46,539 - alpha_live_trading - INFO -                         
+[迭代 5474] 2025-11-15 05:08:46        
+2025-11-15 05:08:46,772 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96132.72, 'ETH/USD': 3169.67, 'BNB/USD': 928.25, 'XRP/USD': 2.2825, 'DOGE/USD': 0.16243, 'SOL/USD': 142.62, 'ARB/USD': 0.2442}
+2025-11-15 05:08:46,773 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 12.8 分钟                                                              
+2025-11-15 05:09:46,833 - alpha_live_trading - INFO -                         
+[迭代 5475] 2025-11-15 05:09:46        
+2025-11-15 05:09:47,068 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96108.5, 'ETH/USD': 3168.41, 'BNB/USD': 927.82, 'XRP/USD': 2.2808, 'DOGE/USD': 0.16238, 'SOL/USD': 142.6, 'ARB/USD': 0.2442}
+2025-11-15 05:09:47,068 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 11.8 分钟                                                              
+2025-11-15 05:10:47,078 - alpha_live_trading - INFO -                         
+[迭代 5476] 2025-11-15 05:10:47        
+2025-11-15 05:10:47,305 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96147.52, 'ETH/USD': 3169.99, 'BNB/USD': 928.21, 'XRP/USD': 2.2817, 'DOGE/USD': 0.16248, 'SOL/USD': 142.66, 'ARB/USD': 0.2444}
+2025-11-15 05:10:47,306 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 10.8 分钟                                                              
+2025-11-15 05:11:47,358 - alpha_live_trading - INFO -                         
+[迭代 5477] 2025-11-15 05:11:47        
+2025-11-15 05:11:47,585 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96097.4, 'ETH/USD': 3166.02, 'BNB/USD': 927.81, 'XRP/USD': 2.2793, 'DOGE/USD': 0.16234, 'SOL/USD': 142.47, 'ARB/USD': 0.2441}
+2025-11-15 05:11:47,586 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 9.8 分钟                                                               
+2025-11-15 05:12:47,640 - alpha_live_trading - INFO -                         
+[迭代 5478] 2025-11-15 05:12:47        
+2025-11-15 05:12:47,868 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96028.03, 'ETH/USD': 3163.01, 'BNB/USD': 927.29, 'XRP/USD': 2.2777, 'DOGE/USD': 0.1623, 'SOL/USD': 142.41, 'ARB/USD': 0.2439}
+2025-11-15 05:12:47,869 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 8.8 分钟                                                               
+2025-11-15 05:13:47,929 - alpha_live_trading - INFO -                         
+[迭代 5479] 2025-11-15 05:13:47        
+2025-11-15 05:13:48,157 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95981.97, 'ETH/USD': 3162.87, 'BNB/USD': 927.18, 'XRP/USD': 2.2775, 'DOGE/USD': 0.1623, 'SOL/USD': 142.41, 'ARB/USD': 0.2438}
+2025-11-15 05:13:48,157 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 7.8 分钟                                                               
+2025-11-15 05:14:48,208 - alpha_live_trading - INFO -                         
+[迭代 5480] 2025-11-15 05:14:48        
+2025-11-15 05:14:48,438 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96005.1, 'ETH/USD': 3162.89, 'BNB/USD': 927.64, 'XRP/USD': 2.2787, 'DOGE/USD': 0.16236, 'SOL/USD': 142.45, 'ARB/USD': 0.244}
+2025-11-15 05:14:48,439 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 6.8 分钟                                                               
+2025-11-15 05:14:48,495 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 05:15:48,556 - alpha_live_trading - INFO -                         
+[迭代 5481] 2025-11-15 05:15:48        
+2025-11-15 05:15:48,783 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96006.28, 'ETH/USD': 3163.25, 'BNB/USD': 927.82, 'XRP/USD': 2.2797, 'DOGE/USD': 0.16232, 'SOL/USD': 142.48, 'ARB/USD': 0.2439}
+2025-11-15 05:15:48,783 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 5.7 分钟                                                               
+2025-11-15 05:16:48,828 - alpha_live_trading - INFO -                         
+[迭代 5482] 2025-11-15 05:16:48        
+2025-11-15 05:16:49,060 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96107.66, 'ETH/USD': 3167.77, 'BNB/USD': 928.38, 'XRP/USD': 2.2827, 'DOGE/USD': 0.16258, 'SOL/USD': 142.6, 'ARB/USD': 0.2442}
+2025-11-15 05:16:49,060 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 4.7 分钟                                                               
+2025-11-15 05:17:49,118 - alpha_live_trading - INFO -                         
+[迭代 5483] 2025-11-15 05:17:49        
+2025-11-15 05:17:49,339 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96217.96, 'ETH/USD': 3173.8, 'BNB/USD': 929.79, 'XRP/USD': 2.2854, 'DOGE/USD': 0.16283, 'SOL/USD': 142.83, 'ARB/USD': 0.2447}
+2025-11-15 05:17:49,339 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 3.7 分钟                                                               
+2025-11-15 05:18:49,378 - alpha_live_trading - INFO -                         
+[迭代 5484] 2025-11-15 05:18:49        
+2025-11-15 05:18:49,613 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96222.8, 'ETH/USD': 3175.97, 'BNB/USD': 930.26, 'XRP/USD': 2.2865, 'DOGE/USD': 0.16299, 'SOL/USD': 142.93, 'ARB/USD': 0.2448}
+2025-11-15 05:18:49,613 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 2.7 分钟                                                               
+2025-11-15 05:19:49,673 - alpha_live_trading - INFO -                         
+[迭代 5485] 2025-11-15 05:19:49        
+2025-11-15 05:19:49,907 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96172.01, 'ETH/USD': 3174.53, 'BNB/USD': 930.06, 'XRP/USD': 2.2856, 'DOGE/USD': 0.16294, 'SOL/USD': 142.86, 'ARB/USD': 0.2446}
+2025-11-15 05:19:49,907 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 1.7 分钟                                                               
+2025-11-15 05:20:49,938 - alpha_live_trading - INFO -                         
+[迭代 5486] 2025-11-15 05:20:49        
+2025-11-15 05:20:50,167 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96153.91, 'ETH/USD': 3174.71, 'BNB/USD': 930.06, 'XRP/USD': 2.2843, 'DOGE/USD': 0.16292, 'SOL/USD': 142.89, 'ARB/USD': 0.2445}
+2025-11-15 05:20:50,168 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 0.7 分钟                                                               
+2025-11-15 05:21:50,228 - alpha_live_trading - INFO -                         
+[迭代 5487] 2025-11-15 05:21:50        
+2025-11-15 05:21:50,452 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96131.81, 'ETH/USD': 3174.83, 'BNB/USD': 930.29, 'XRP/USD': 2.284, 'DOGE/USD': 0.16299, 'SOL/USD': 142.94, 'ARB/USD': 0.2447}
+2025-11-15 05:21:50,453 - alpha_live_trading - INFO - ======================================================================                                 
+2025-11-15 05:21:50,453 - alpha_live_trading - INFO - [再平衡] 开始执行...    
+2025-11-15 05:21:50,485 - alpha_live_trading - INFO - [Alpha计算] 信号值: {'BTC/USD': -0.6619283487840235, 'ETH/USD': -0.8908994692741876, 'BNB/USD': 0.3667442259937725, 'XRP/USD': -0.3249418754871792, 'DOGE/USD': 0.9584765043698825, 'SOL/USD': 1.5909423218742742, 'ARB/USD': -1.0383933586925387}                  
+2025-11-15 05:21:50,486 - alpha_live_trading - INFO - [权重计算] 目标权重: {'BTC/USD': 0.0, 'ETH/USD': 0.0, 'BNB/USD': np.float64(0.17328337656231776), 'XRP/USD': 0.0, 'DOGE/USD': np.float64(0.4133583117188411), 'SOL/USD': np.float64(0.4133583117188411), 'ARB/USD': 0.0}                                            
+2025-11-15 05:21:51,166 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96131.81, 'ETH/USD': 3174.83, 'BNB/USD': 930.29, 'XRP/USD': 2.2839, 'DOGE/USD': 0.163, 'SOL/USD': 142.94, 'ARB/USD': 0.2447}
+2025-11-15 05:21:51,396 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96131.81, 'ETH/USD': 3174.83, 'BNB/USD': 930.29, 'XRP/USD': 2.2839, 'DOGE/USD': 0.163, 'SOL/USD': 142.94, 'ARB/USD': 0.2447}
+2025-11-15 05:21:51,396 - alpha_live_trading - INFO - [再平衡] 组合价值: $0.00                                                                               
+2025-11-15 05:21:51,396 - alpha_live_trading - INFO - [再平衡] 当前持仓: {}   
+2025-11-15 05:21:51,396 - alpha_live_trading - INFO - [再平衡] 完成           
+2025-11-15 05:21:51,396 - alpha_live_trading - INFO - ======================================================================                                 
+2025-11-15 05:22:51,432 - alpha_live_trading - INFO -                         
+[迭代 5488] 2025-11-15 05:22:51        
+2025-11-15 05:22:51,667 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96111.38, 'ETH/USD': 3173.93, 'BNB/USD': 930.16, 'XRP/USD': 2.2841, 'DOGE/USD': 0.16299, 'SOL/USD': 142.97, 'ARB/USD': 0.2449}
+2025-11-15 05:22:51,668 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 59.0 分钟                                                              
+2025-11-15 05:23:51,728 - alpha_live_trading - INFO -                         
+[迭代 5489] 2025-11-15 05:23:51        
+2025-11-15 05:23:51,952 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96100.79, 'ETH/USD': 3173.09, 'BNB/USD': 930.04, 'XRP/USD': 2.2845, 'DOGE/USD': 0.16301, 'SOL/USD': 142.86, 'ARB/USD': 0.2448}
+2025-11-15 05:23:51,952 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 58.0 分钟                                                              
+2025-11-15 05:24:51,968 - alpha_live_trading - INFO -                         
+[迭代 5490] 2025-11-15 05:24:51        
+2025-11-15 05:24:52,191 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96059.38, 'ETH/USD': 3170.97, 'BNB/USD': 929.64, 'XRP/USD': 2.277, 'DOGE/USD': 0.16279, 'SOL/USD': 142.78, 'ARB/USD': 0.2445}
+2025-11-15 05:24:52,191 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 57.0 分钟                                                              
+2025-11-15 05:24:52,248 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 05:25:52,308 - alpha_live_trading - INFO -                         
+[迭代 5491] 2025-11-15 05:25:52        
+2025-11-15 05:25:52,548 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96108.85, 'ETH/USD': 3173.0, 'BNB/USD': 930.14, 'XRP/USD': 2.2799, 'DOGE/USD': 0.16289, 'SOL/USD': 142.86, 'ARB/USD': 0.2447}
+2025-11-15 05:25:52,548 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 56.0 分钟                                                              
+2025-11-15 05:26:52,608 - alpha_live_trading - INFO -                         
+[迭代 5492] 2025-11-15 05:26:52        
+2025-11-15 05:26:52,847 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96091.32, 'ETH/USD': 3172.34, 'BNB/USD': 929.54, 'XRP/USD': 2.279, 'DOGE/USD': 0.16284, 'SOL/USD': 142.83, 'ARB/USD': 0.2447}
+2025-11-15 05:26:52,847 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 55.0 分钟                                                              
+2025-11-15 05:27:52,907 - alpha_live_trading - INFO -                         
+[迭代 5493] 2025-11-15 05:27:52        
+2025-11-15 05:27:53,134 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96097.23, 'ETH/USD': 3172.33, 'BNB/USD': 929.41, 'XRP/USD': 2.2792, 'DOGE/USD': 0.16289, 'SOL/USD': 142.81, 'ARB/USD': 0.2448}
+2025-11-15 05:27:53,134 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 54.0 分钟                                                              
+2025-11-15 05:28:53,138 - alpha_live_trading - INFO -                         
+[迭代 5494] 2025-11-15 05:28:53        
+2025-11-15 05:28:53,366 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96057.32, 'ETH/USD': 3169.26, 'BNB/USD': 929.11, 'XRP/USD': 2.2785, 'DOGE/USD': 0.16283, 'SOL/USD': 142.75, 'ARB/USD': 0.2448}
+2025-11-15 05:28:53,366 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 53.0 分钟                                                              
+2025-11-15 05:29:53,426 - alpha_live_trading - INFO -                         
+[迭代 5495] 2025-11-15 05:29:53        
+2025-11-15 05:29:53,656 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96074.11, 'ETH/USD': 3170.24, 'BNB/USD': 929.26, 'XRP/USD': 2.2787, 'DOGE/USD': 0.16291, 'SOL/USD': 142.72, 'ARB/USD': 0.2449}
+2025-11-15 05:29:53,656 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 52.0 分钟                                                              
+2025-11-15 05:30:53,698 - alpha_live_trading - INFO -                         
+[迭代 5496] 2025-11-15 05:30:53        
+2025-11-15 05:30:53,927 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96035.93, 'ETH/USD': 3169.44, 'BNB/USD': 929.12, 'XRP/USD': 2.2785, 'DOGE/USD': 0.16277, 'SOL/USD': 142.69, 'ARB/USD': 0.245}
+2025-11-15 05:30:53,927 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 51.0 分钟                                                              
+2025-11-15 05:31:53,978 - alpha_live_trading - INFO -                         
+[迭代 5497] 2025-11-15 05:31:53        
+2025-11-15 05:31:54,211 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96108.72, 'ETH/USD': 3172.85, 'BNB/USD': 929.73, 'XRP/USD': 2.2803, 'DOGE/USD': 0.16288, 'SOL/USD': 142.8, 'ARB/USD': 0.2452}
+2025-11-15 05:31:54,211 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 50.0 分钟                                                              
+2025-11-15 05:32:54,271 - alpha_live_trading - INFO -                         
+[迭代 5498] 2025-11-15 05:32:54        
+2025-11-15 05:32:54,513 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96015.35, 'ETH/USD': 3173.25, 'BNB/USD': 929.32, 'XRP/USD': 2.2803, 'DOGE/USD': 0.16281, 'SOL/USD': 142.74, 'ARB/USD': 0.2452}
+2025-11-15 05:32:54,513 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 48.9 分钟                                                              
+2025-11-15 05:33:54,558 - alpha_live_trading - INFO -                         
+[迭代 5499] 2025-11-15 05:33:54        
+2025-11-15 05:33:54,789 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96016.44, 'ETH/USD': 3173.86, 'BNB/USD': 929.64, 'XRP/USD': 2.2807, 'DOGE/USD': 0.16286, 'SOL/USD': 142.79, 'ARB/USD': 0.2451}
+2025-11-15 05:33:54,789 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 47.9 分钟                                                              
+2025-11-15 05:34:54,828 - alpha_live_trading - INFO -                         
+[迭代 5500] 2025-11-15 05:34:54        
+2025-11-15 05:34:55,072 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96082.54, 'ETH/USD': 3174.6, 'BNB/USD': 929.51, 'XRP/USD': 2.2805, 'DOGE/USD': 0.16287, 'SOL/USD': 142.79, 'ARB/USD': 0.245}
+2025-11-15 05:34:55,072 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 46.9 分钟                                                              
+2025-11-15 05:34:55,144 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 05:35:55,168 - alpha_live_trading - INFO -                         
+[迭代 5501] 2025-11-15 05:35:55        
+2025-11-15 05:35:55,391 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96057.5, 'ETH/USD': 3171.9, 'BNB/USD': 928.83, 'XRP/USD': 2.2745, 'DOGE/USD': 0.16276, 'SOL/USD': 142.65, 'ARB/USD': 0.2447}
+2025-11-15 05:35:55,391 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 45.9 分钟                                                              
+2025-11-15 05:36:55,448 - alpha_live_trading - INFO -                         
+[迭代 5502] 2025-11-15 05:36:55        
+2025-11-15 05:36:55,676 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96091.1, 'ETH/USD': 3171.72, 'BNB/USD': 928.71, 'XRP/USD': 2.2756, 'DOGE/USD': 0.16277, 'SOL/USD': 142.63, 'ARB/USD': 0.2448}
+2025-11-15 05:36:55,676 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 44.9 分钟                                                              
+2025-11-15 05:37:55,736 - alpha_live_trading - INFO -                         
+[迭代 5503] 2025-11-15 05:37:55        
+2025-11-15 05:37:55,963 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96073.2, 'ETH/USD': 3171.13, 'BNB/USD': 928.53, 'XRP/USD': 2.275, 'DOGE/USD': 0.16274, 'SOL/USD': 142.65, 'ARB/USD': 0.2447}
+2025-11-15 05:37:55,964 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 43.9 分钟                                                              
+2025-11-15 05:38:55,988 - alpha_live_trading - INFO -                         
+[迭代 5504] 2025-11-15 05:38:55        
+2025-11-15 05:38:56,227 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96049.82, 'ETH/USD': 3171.13, 'BNB/USD': 928.4, 'XRP/USD': 2.2745, 'DOGE/USD': 0.16269, 'SOL/USD': 142.65, 'ARB/USD': 0.2446}
+2025-11-15 05:38:56,227 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 42.9 分钟                                                              
+2025-11-15 05:39:56,228 - alpha_live_trading - INFO -                         
+[迭代 5505] 2025-11-15 05:39:56        
+2025-11-15 05:39:56,451 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96024.56, 'ETH/USD': 3171.14, 'BNB/USD': 928.61, 'XRP/USD': 2.276, 'DOGE/USD': 0.1627, 'SOL/USD': 142.7, 'ARB/USD': 0.2446}
+2025-11-15 05:39:56,451 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 41.9 分钟                                                              
+2025-11-15 05:40:56,508 - alpha_live_trading - INFO -                         
+[迭代 5506] 2025-11-15 05:40:56        
+2025-11-15 05:40:56,736 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 95984.07, 'ETH/USD': 3168.98, 'BNB/USD': 928.33, 'XRP/USD': 2.2749, 'DOGE/USD': 0.16264, 'SOL/USD': 142.58, 'ARB/USD': 0.2445}
+2025-11-15 05:40:56,736 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 40.9 分钟                                                              
+2025-11-15 05:41:56,775 - alpha_live_trading - INFO -                         
+[迭代 5507] 2025-11-15 05:41:56        
+2025-11-15 05:41:57,014 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96029.0, 'ETH/USD': 3171.78, 'BNB/USD': 928.8, 'XRP/USD': 2.2766, 'DOGE/USD': 0.16277, 'SOL/USD': 142.66, 'ARB/USD': 0.2448}
+2025-11-15 05:41:57,014 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 39.9 分钟                                                              
+2025-11-15 05:42:57,058 - alpha_live_trading - INFO -                         
+[迭代 5508] 2025-11-15 05:42:57        
+2025-11-15 05:42:57,287 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96069.99, 'ETH/USD': 3173.1, 'BNB/USD': 929.26, 'XRP/USD': 2.2776, 'DOGE/USD': 0.16276, 'SOL/USD': 142.7, 'ARB/USD': 0.2447}
+2025-11-15 05:42:57,287 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 38.9 分钟                                                              
+2025-11-15 05:43:57,338 - alpha_live_trading - INFO -                         
+[迭代 5509] 2025-11-15 05:43:57        
+2025-11-15 05:43:57,576 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96122.7, 'ETH/USD': 3174.01, 'BNB/USD': 929.54, 'XRP/USD': 2.2763, 'DOGE/USD': 0.16288, 'SOL/USD': 142.71, 'ARB/USD': 0.245}
+2025-11-15 05:43:57,576 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 37.9 分钟                                                              
+2025-11-15 05:44:57,608 - alpha_live_trading - INFO -                         
+[迭代 5510] 2025-11-15 05:44:57        
+2025-11-15 05:44:57,845 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96155.32, 'ETH/USD': 3175.17, 'BNB/USD': 930.39, 'XRP/USD': 2.2791, 'DOGE/USD': 0.16305, 'SOL/USD': 142.8, 'ARB/USD': 0.2453}
+2025-11-15 05:44:57,845 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 36.9 分钟                                                              
+2025-11-15 05:44:57,902 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 05:45:57,963 - alpha_live_trading - INFO -                         
+[迭代 5511] 2025-11-15 05:45:57        
+2025-11-15 05:45:58,200 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96136.74, 'ETH/USD': 3174.83, 'BNB/USD': 930.16, 'XRP/USD': 2.2778, 'DOGE/USD': 0.16303, 'SOL/USD': 142.73, 'ARB/USD': 0.2454}
+2025-11-15 05:45:58,200 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 35.9 分钟                                                              
+2025-11-15 05:46:58,248 - alpha_live_trading - INFO -                         
+[迭代 5512] 2025-11-15 05:46:58        
+2025-11-15 05:46:58,487 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96209.62, 'ETH/USD': 3179.32, 'BNB/USD': 930.68, 'XRP/USD': 2.2807, 'DOGE/USD': 0.16323, 'SOL/USD': 142.92, 'ARB/USD': 0.2454}
+2025-11-15 05:46:58,487 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 34.9 分钟                                                              
+2025-11-15 05:47:58,518 - alpha_live_trading - INFO -                         
+[迭代 5513] 2025-11-15 05:47:58        
+2025-11-15 05:47:58,759 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96231.07, 'ETH/USD': 3178.92, 'BNB/USD': 931.14, 'XRP/USD': 2.2803, 'DOGE/USD': 0.16324, 'SOL/USD': 142.96, 'ARB/USD': 0.2457}
+2025-11-15 05:47:58,760 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 33.9 分钟                                                              
+2025-11-15 05:48:58,798 - alpha_live_trading - INFO -                         
+[迭代 5514] 2025-11-15 05:48:58        
+2025-11-15 05:48:59,036 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96201.67, 'ETH/USD': 3178.88, 'BNB/USD': 931.88, 'XRP/USD': 2.2806, 'DOGE/USD': 0.16326, 'SOL/USD': 143.0, 'ARB/USD': 0.2457}
+2025-11-15 05:48:59,036 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 32.9 分钟                                                              
+2025-11-15 05:49:59,078 - alpha_live_trading - INFO -                         
+[迭代 5515] 2025-11-15 05:49:59        
+2025-11-15 05:49:59,398 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96233.61, 'ETH/USD': 3178.23, 'BNB/USD': 931.61, 'XRP/USD': 2.2799, 'DOGE/USD': 0.16315, 'SOL/USD': 142.97, 'ARB/USD': 0.2457}
+2025-11-15 05:49:59,398 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 31.9 分钟                                                              
+2025-11-15 05:50:59,432 - alpha_live_trading - INFO -                         
+[迭代 5516] 2025-11-15 05:50:59        
+2025-11-15 05:50:59,662 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96238.48, 'ETH/USD': 3178.69, 'BNB/USD': 931.26, 'XRP/USD': 2.2804, 'DOGE/USD': 0.16316, 'SOL/USD': 142.94, 'ARB/USD': 0.2456}
+2025-11-15 05:50:59,662 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 30.9 分钟                                                              
+2025-11-15 05:51:59,722 - alpha_live_trading - INFO -                         
+[迭代 5517] 2025-11-15 05:51:59        
+2025-11-15 05:51:59,953 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96307.66, 'ETH/USD': 3181.72, 'BNB/USD': 931.7, 'XRP/USD': 2.2824, 'DOGE/USD': 0.16328, 'SOL/USD': 143.03, 'ARB/USD': 0.2458}
+2025-11-15 05:51:59,953 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 29.9 分钟                                                              
+2025-11-15 05:52:59,978 - alpha_live_trading - INFO -                         
+[迭代 5518] 2025-11-15 05:52:59        
+2025-11-15 05:53:00,219 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96326.41, 'ETH/USD': 3181.34, 'BNB/USD': 931.92, 'XRP/USD': 2.2829, 'DOGE/USD': 0.16328, 'SOL/USD': 143.02, 'ARB/USD': 0.2458}
+2025-11-15 05:53:00,220 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 28.9 分钟                                                              
+2025-11-15 05:54:00,280 - alpha_live_trading - INFO -                         
+[迭代 5519] 2025-11-15 05:54:00        
+2025-11-15 05:54:00,505 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96340.56, 'ETH/USD': 3181.25, 'BNB/USD': 932.01, 'XRP/USD': 2.2833, 'DOGE/USD': 0.16331, 'SOL/USD': 142.99, 'ARB/USD': 0.2461}
+2025-11-15 05:54:00,505 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 27.8 分钟                                                              
+2025-11-15 05:55:00,538 - alpha_live_trading - INFO -                         
+[迭代 5520] 2025-11-15 05:55:00        
+2025-11-15 05:55:00,760 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96381.98, 'ETH/USD': 3180.58, 'BNB/USD': 932.15, 'XRP/USD': 2.2836, 'DOGE/USD': 0.16329, 'SOL/USD': 142.98, 'ARB/USD': 0.2461}
+2025-11-15 05:55:00,760 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 26.8 分钟                                                              
+2025-11-15 05:55:00,819 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 05:56:00,878 - alpha_live_trading - INFO -                         
+[迭代 5521] 2025-11-15 05:56:00        
+2025-11-15 05:56:01,116 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96414.46, 'ETH/USD': 3182.4, 'BNB/USD': 932.34, 'XRP/USD': 2.2842, 'DOGE/USD': 0.16335, 'SOL/USD': 143.01, 'ARB/USD': 0.2464}
+2025-11-15 05:56:01,116 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 25.8 分钟                                                              
+2025-11-15 05:57:01,168 - alpha_live_trading - INFO -                         
+[迭代 5522] 2025-11-15 05:57:01        
+2025-11-15 05:57:01,826 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96386.68, 'ETH/USD': 3182.01, 'BNB/USD': 932.28, 'XRP/USD': 2.2837, 'DOGE/USD': 0.16335, 'SOL/USD': 142.98, 'ARB/USD': 0.2465}
+2025-11-15 05:57:01,827 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 24.8 分钟                                                              
+2025-11-15 05:58:01,868 - alpha_live_trading - INFO -                         
+[迭代 5523] 2025-11-15 05:58:01        
+2025-11-15 05:58:02,102 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96333.87, 'ETH/USD': 3179.63, 'BNB/USD': 932.13, 'XRP/USD': 2.2813, 'DOGE/USD': 0.16333, 'SOL/USD': 142.87, 'ARB/USD': 0.2461}
+2025-11-15 05:58:02,102 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 23.8 分钟                                                              
+2025-11-15 05:59:02,148 - alpha_live_trading - INFO -                         
+[迭代 5524] 2025-11-15 05:59:02        
+2025-11-15 05:59:02,389 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96310.34, 'ETH/USD': 3179.63, 'BNB/USD': 932.02, 'XRP/USD': 2.2802, 'DOGE/USD': 0.1633, 'SOL/USD': 142.85, 'ARB/USD': 0.2462}
+2025-11-15 05:59:02,390 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 22.8 分钟                                                              
+2025-11-15 06:00:02,418 - alpha_live_trading - INFO -                         
+[迭代 5525] 2025-11-15 06:00:02        
+2025-11-15 06:00:02,704 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96328.01, 'ETH/USD': 3178.5, 'BNB/USD': 931.93, 'XRP/USD': 2.2764, 'DOGE/USD': 0.16327, 'SOL/USD': 142.84, 'ARB/USD': 0.2462}
+2025-11-15 06:00:02,704 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 21.8 分钟                                                              
+2025-11-15 06:01:02,771 - alpha_live_trading - INFO -                         
+[迭代 5526] 2025-11-15 06:01:02        
+2025-11-15 06:01:03,008 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96334.15, 'ETH/USD': 3178.31, 'BNB/USD': 931.74, 'XRP/USD': 2.2766, 'DOGE/USD': 0.16329, 'SOL/USD': 142.77, 'ARB/USD': 0.2461}
+2025-11-15 06:01:03,009 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 20.8 分钟                                                              
+2025-11-15 06:02:03,038 - alpha_live_trading - INFO -                         
+[迭代 5527] 2025-11-15 06:02:03        
+2025-11-15 06:02:03,727 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96323.0, 'ETH/USD': 3177.63, 'BNB/USD': 931.95, 'XRP/USD': 2.2763, 'DOGE/USD': 0.16326, 'SOL/USD': 142.78, 'ARB/USD': 0.2461}
+2025-11-15 06:02:03,727 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 19.8 分钟                                                              
+2025-11-15 06:03:03,787 - alpha_live_trading - INFO -                         
+[迭代 5528] 2025-11-15 06:03:03        
+2025-11-15 06:03:04,029 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96320.01, 'ETH/USD': 3177.09, 'BNB/USD': 931.95, 'XRP/USD': 2.2755, 'DOGE/USD': 0.16319, 'SOL/USD': 142.76, 'ARB/USD': 0.246}
+2025-11-15 06:03:04,030 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 18.8 分钟                                                              
+2025-11-15 06:04:04,078 - alpha_live_trading - INFO -                         
+[迭代 5529] 2025-11-15 06:04:04        
+2025-11-15 06:04:04,322 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96300.23, 'ETH/USD': 3177.39, 'BNB/USD': 931.81, 'XRP/USD': 2.2752, 'DOGE/USD': 0.16315, 'SOL/USD': 142.68, 'ARB/USD': 0.2458}
+2025-11-15 06:04:04,322 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 17.8 分钟                                                              
+2025-11-15 06:05:04,328 - alpha_live_trading - INFO -                         
+[迭代 5530] 2025-11-15 06:05:04        
+2025-11-15 06:05:04,642 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96244.92, 'ETH/USD': 3176.01, 'BNB/USD': 931.81, 'XRP/USD': 2.2741, 'DOGE/USD': 0.1631, 'SOL/USD': 142.63, 'ARB/USD': 0.2458}
+2025-11-15 06:05:04,642 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 16.8 分钟                                                              
+2025-11-15 06:05:04,716 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 06:06:04,776 - alpha_live_trading - INFO -                         
+[迭代 5531] 2025-11-15 06:06:04        
+2025-11-15 06:06:05,011 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96345.64, 'ETH/USD': 3177.8, 'BNB/USD': 932.2, 'XRP/USD': 2.2761, 'DOGE/USD': 0.16314, 'SOL/USD': 142.73, 'ARB/USD': 0.2458}
+2025-11-15 06:06:05,012 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 15.8 分钟                                                              
+2025-11-15 06:07:05,072 - alpha_live_trading - INFO -                         
+[迭代 5532] 2025-11-15 06:07:05        
+2025-11-15 06:07:05,302 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96318.55, 'ETH/USD': 3176.79, 'BNB/USD': 931.91, 'XRP/USD': 2.2769, 'DOGE/USD': 0.16309, 'SOL/USD': 142.59, 'ARB/USD': 0.246}
+2025-11-15 06:07:05,302 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 14.8 分钟                                                              
+2025-11-15 06:08:05,318 - alpha_live_trading - INFO -                         
+[迭代 5533] 2025-11-15 06:08:05        
+2025-11-15 06:08:05,557 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96326.63, 'ETH/USD': 3177.01, 'BNB/USD': 932.02, 'XRP/USD': 2.2787, 'DOGE/USD': 0.16309, 'SOL/USD': 142.61, 'ARB/USD': 0.2462}
+2025-11-15 06:08:05,557 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 13.8 分钟                                                              
+2025-11-15 06:09:05,578 - alpha_live_trading - INFO -                         
+[迭代 5534] 2025-11-15 06:09:05        
+2025-11-15 06:09:05,801 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96433.84, 'ETH/USD': 3180.54, 'BNB/USD': 933.14, 'XRP/USD': 2.2805, 'DOGE/USD': 0.16322, 'SOL/USD': 142.84, 'ARB/USD': 0.2463}
+2025-11-15 06:09:05,801 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 12.8 分钟                                                              
+2025-11-15 06:10:05,818 - alpha_live_trading - INFO -                         
+[迭代 5535] 2025-11-15 06:10:05        
+2025-11-15 06:10:06,054 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96407.85, 'ETH/USD': 3180.18, 'BNB/USD': 932.87, 'XRP/USD': 2.2822, 'DOGE/USD': 0.1632, 'SOL/USD': 142.85, 'ARB/USD': 0.2465}
+2025-11-15 06:10:06,054 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 11.8 分钟                                                              
+2025-11-15 06:11:06,098 - alpha_live_trading - INFO -                         
+[迭代 5536] 2025-11-15 06:11:06        
+2025-11-15 06:11:06,335 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96438.75, 'ETH/USD': 3180.13, 'BNB/USD': 932.84, 'XRP/USD': 2.2822, 'DOGE/USD': 0.16315, 'SOL/USD': 142.93, 'ARB/USD': 0.2464}
+2025-11-15 06:11:06,335 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 10.8 分钟                                                              
+2025-11-15 06:12:06,395 - alpha_live_trading - INFO -                         
+[迭代 5537] 2025-11-15 06:12:06        
+2025-11-15 06:12:06,623 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96448.44, 'ETH/USD': 3181.44, 'BNB/USD': 932.67, 'XRP/USD': 2.2842, 'DOGE/USD': 0.16321, 'SOL/USD': 142.92, 'ARB/USD': 0.2465}
+2025-11-15 06:12:06,624 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 9.7 分钟                                                               
+2025-11-15 06:13:06,678 - alpha_live_trading - INFO -                         
+[迭代 5538] 2025-11-15 06:13:06        
+2025-11-15 06:13:06,907 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96453.57, 'ETH/USD': 3182.4, 'BNB/USD': 932.9, 'XRP/USD': 2.2841, 'DOGE/USD': 0.16327, 'SOL/USD': 142.99, 'ARB/USD': 0.2468}
+2025-11-15 06:13:06,907 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 8.7 分钟                                                               
+2025-11-15 06:14:06,958 - alpha_live_trading - INFO -                         
+[迭代 5539] 2025-11-15 06:14:06        
+2025-11-15 06:14:07,183 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96470.58, 'ETH/USD': 3181.98, 'BNB/USD': 932.85, 'XRP/USD': 2.2829, 'DOGE/USD': 0.16324, 'SOL/USD': 142.97, 'ARB/USD': 0.2468}
+2025-11-15 06:14:07,184 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 7.7 分钟                                                               
+2025-11-15 06:15:07,240 - alpha_live_trading - INFO -                         
+[迭代 5540] 2025-11-15 06:15:07        
+2025-11-15 06:15:07,470 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96380.9, 'ETH/USD': 3179.09, 'BNB/USD': 932.91, 'XRP/USD': 2.2806, 'DOGE/USD': 0.16312, 'SOL/USD': 142.77, 'ARB/USD': 0.2466}
+2025-11-15 06:15:07,470 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 6.7 分钟                                                               
+2025-11-15 06:15:07,527 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 06:16:07,587 - alpha_live_trading - INFO -                         
+[迭代 5541] 2025-11-15 06:16:07        
+2025-11-15 06:16:07,811 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96401.86, 'ETH/USD': 3180.08, 'BNB/USD': 933.33, 'XRP/USD': 2.2815, 'DOGE/USD': 0.16317, 'SOL/USD': 142.85, 'ARB/USD': 0.2465}
+2025-11-15 06:16:07,811 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 5.7 分钟                                                               
+2025-11-15 06:17:07,848 - alpha_live_trading - INFO -                         
+[迭代 5542] 2025-11-15 06:17:07        
+2025-11-15 06:17:08,095 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96433.69, 'ETH/USD': 3182.11, 'BNB/USD': 933.86, 'XRP/USD': 2.2842, 'DOGE/USD': 0.16328, 'SOL/USD': 143.14, 'ARB/USD': 0.2469}
+2025-11-15 06:17:08,096 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 4.7 分钟                                                               
+2025-11-15 06:18:08,109 - alpha_live_trading - INFO -                         
+[迭代 5543] 2025-11-15 06:18:08        
+2025-11-15 06:18:08,340 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96459.8, 'ETH/USD': 3182.86, 'BNB/USD': 934.0, 'XRP/USD': 2.2844, 'DOGE/USD': 0.16334, 'SOL/USD': 143.16, 'ARB/USD': 0.2468}
+2025-11-15 06:18:08,340 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 3.7 分钟                                                               
+^C2025-11-15 06:18:40,041 - alpha_live_trading - INFO -                      
+收到中断信号，正在安全退出...         
+2025-11-15 06:18:40,100 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 06:18:40,100 - alpha_live_trading - INFO - 已保存数据，系统退出   
+[ssm-user@ip-172-31-19-197 alpha_trading]$ python3 start_trading_script.py   
+
+[1/5] 检查依赖包...
+  ✓ requests       
+  ✓ pandas         
+  ✓ numpy          
+  ✓ tabulate       
+依赖检查通过！     
+
+[2/5] 检查配置文件...                 
+  ✓ API配置        
+  ✓ 交易对: BTC/USD, ETH/USD, BNB/USD, XRP/USD, DOGE/USD, SOL/USD, ARB/USD   
+  ✓ 策略参数       
+
+  关键参数:        
+    - 再平衡间隔: 60 分钟             
+    - 最小数据点: 100 个              
+    - 最小交易额: $10.0               
+    - 最大单仓位: 30.0%               
+配置检查通过！     
+
+[3/5] 检查历史数据...                 
+  ✓ 找到历史数据文件                  
+    - BTC/USD: 1440 个数据点          
+    - ETH/USD: 1440 个数据点          
+    - BNB/USD: 1440 个数据点          
+    - XRP/USD: 1440 个数据点          
+    - DOGE/USD: 1440 个数据点         
+    - SOL/USD: 1440 个数据点          
+    - ARB/USD: 1440 个数据点          
+历史数据可用！     
+
+[4/5] 测试API连接...                  
+  测试获取账户余额...                 
+2025-11-15 06:19:01,454 - alpha_live_trading - INFO - [DEBUG][get_balance] 请求: url=https://mock-api.roostoo.com/v3/balance, headers={'RST-API-KEY': 'w2bR9XU4g6eN8qT1jY0LzA7cD3fV5sK2rC1mF8hJ9pQ4uB6vW3oP5xI7lS0nM2tY', 'MSG-SIGNATURE': '0f91e0c8364b9a6341bf388c5d484ea9f94280f3726fd942c07006a6bf57a73b'}, params={'timestamp': '1763187541454'}
+2025-11-15 06:19:01,703 - alpha_live_trading - INFO - [DEBUG][get_balance] 响应状态: 200                                                                     
+2025-11-15 06:19:01,703 - alpha_live_trading - INFO - [DEBUG][get_balance] 响应文本: {"Success":true,"ErrMsg":"","SpotWallet":{"USD":{"Free":50000,"Lock":0}},"MarginWallet":{}}
+
+2025-11-15 06:19:01,704 - alpha_live_trading - INFO - [DEBUG][get_balance] 解析后的 JSON: {'Success': True, 'ErrMsg': '', 'SpotWallet': {'USD': {'Free': 50000, 'Lock': 0}}, 'MarginWallet': {}}
+  ✓ API连接成功    
+  ✓ 账户余额: $0.00 USD               
+  测试获取行情数据...                 
+  ✓ 行情数据获取成功                  
+API连接测试通过！  
+2025-11-15 06:19:02,007 - alpha_live_trading - INFO - [数据加载] 从 price_history.json 加载历史数据                                                          
+2025-11-15 06:19:02,008 - alpha_live_trading - INFO - [数据状态] {'BTC/USD': {'count': 1440, 'latest': {'timestamp': '2025-11-15T06:18:08.340657', 'price': 96459.8}}, 'ETH/USD': {'count': 1440, 'latest': {'timestamp': '2025-11-15T06:18:08.340657', 'price': 3182.86}}, 'BNB/USD': {'count': 1440, 'latest': {'timestamp': '2025-11-15T06:18:08.340657', 'price': 934.0}}, 'XRP/USD': {'count': 1440, 'latest': {'timestamp': '2025-11-15T06:18:08.340657', 'price': 2.2844}}, 'DOGE/USD': {'count': 1440, 'latest': {'timestamp': '2025-11-15T06:18:08.340657', 'price': 0.16334}}, 'SOL/USD': {'count': 1440, 'latest': {'timestamp': '2025-11-15T06:18:08.340657', 'price': 143.16}}, 'ARB/USD': {'count': 1440, 'latest': {'timestamp': '2025-11-15T06:18:08.340657', 'price': 0.2468}}}                 
+2025-11-15 06:19:02,009 - alpha_live_trading - INFO - ======================================================================                                 
+2025-11-15 06:19:02,009 - alpha_live_trading - INFO - 启动Alpha实盘交易系统  
+2025-11-15 06:19:02,010 - alpha_live_trading - INFO - 交易对: ['BTC/USD', 'ETH/USD', 'BNB/USD', 'XRP/USD', 'DOGE/USD', 'SOL/USD', 'ARB/USD']                 
+2025-11-15 06:19:02,010 - alpha_live_trading - INFO - 数据收集间隔: 60秒     
+2025-11-15 06:19:02,010 - alpha_live_trading - INFO - 再平衡间隔: 60分钟     
+2025-11-15 06:19:02,010 - alpha_live_trading - INFO - 最少数据点: 100        
+2025-11-15 06:19:02,010 - alpha_live_trading - INFO - ======================================================================                                 
+2025-11-15 06:19:02,015 - alpha_live_trading - INFO -                        
+[迭代 1] 2025-11-15 06:19:02          
+2025-11-15 06:19:02,270 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96484.16, 'ETH/USD': 3181.76, 'BNB/USD': 933.97, 'XRP/USD': 2.2844, 'DOGE/USD': 0.16332, 'SOL/USD': 143.09, 'ARB/USD': 0.2468}
+2025-11-15 06:19:02,270 - alpha_live_trading - INFO - ======================================================================                                 
+2025-11-15 06:19:02,270 - alpha_live_trading - INFO - [再平衡] 开始执行...   
+2025-11-15 06:19:02,334 - alpha_live_trading - INFO - [DEBUG] price_df.tail():                                                                               
+                             BTC/USD  ETH/USD  ...  SOL/USD  ARB/USD         
+timestamp                                      ...                           
+2025-11-15 06:15:07.469977  96380.90  3179.09  ...   142.77   0.2466         
+2025-11-15 06:16:07.811470  96401.86  3180.08  ...   142.85   0.2465         
+2025-11-15 06:17:08.095874  96433.69  3182.11  ...   143.14   0.2469         
+2025-11-15 06:18:08.340657  96459.80  3182.86  ...   143.16   0.2468         
+2025-11-15 06:19:02.270044  96484.16  3181.76  ...   143.09   0.2468         
+
+[5 rows x 7 columns]                  
+2025-11-15 06:19:02,351 - alpha_live_trading - INFO - [Alpha计算] 信号值: {'BTC/USD': 0.647218165837316, 'ETH/USD': -0.6242867431445611, 'BNB/USD': 0.2610097414631391, 'XRP/USD': 0.18091641454645127, 'DOGE/USD': -1.7117825489547918, 'SOL/USD': -0.2080653365718802, 'ARB/USD': 1.4549903068243268}                   
+2025-11-15 06:19:02,351 - alpha_live_trading - INFO - [DEBUG] Alpha 信号: {'BTC/USD': 0.647218165837316, 'ETH/USD': -0.6242867431445611, 'BNB/USD': 0.2610097414631391, 'XRP/USD': 0.18091641454645127, 'DOGE/USD': -1.7117825489547918, 'SOL/USD': -0.2080653365718802, 'ARB/USD': 1.4549903068243268}                   
+2025-11-15 06:19:02,353 - alpha_live_trading - INFO - [权重计算] 目标权重: {'BTC/USD': np.float64(0.3493972727083725), 'ETH/USD': 0.0, 'BNB/USD': np.float64(0.14090471595394183), 'XRP/USD': np.float64(0.09766676086560312), 'DOGE/USD': 0.0, 'SOL/USD': 0.0, 'ARB/USD': np.float64(0.4120312504720826)}                
+2025-11-15 06:19:02,353 - alpha_live_trading - INFO - [DEBUG] 目标权重: {'BTC/USD': np.float64(0.3493972727083725), 'ETH/USD': 0.0, 'BNB/USD': np.float64(0.14090471595394183), 'XRP/USD': np.float64(0.09766676086560312), 'DOGE/USD': 0.0, 'SOL/USD': 0.0, 'ARB/USD': np.float64(0.4120312504720826)}                   
+2025-11-15 06:19:02,353 - alpha_live_trading - INFO - [DEBUG][get_balance] 请求: url=https://mock-api.roostoo.com/v3/balance, headers={'RST-API-KEY': 'w2bR9XU4g6eN8qT1jY0LzA7cD3fV5sK2rC1mF8hJ9pQ4uB6vW3oP5xI7lS0nM2tY', 'MSG-SIGNATURE': '6d5d9525a9ed6a7acc18955562ae5c259b4fe909fb406d1126115220d4ec2a14'}, params={'timestamp': '1763187542353'}
+2025-11-15 06:19:02,592 - alpha_live_trading - INFO - [DEBUG][get_balance] 响应状态: 200                                                                     
+2025-11-15 06:19:02,592 - alpha_live_trading - INFO - [DEBUG][get_balance] 响应文本: {"Success":true,"ErrMsg":"","SpotWallet":{"USD":{"Free":50000,"Lock":0}},"MarginWallet":{}}
+
+2025-11-15 06:19:02,592 - alpha_live_trading - INFO - [DEBUG][get_balance] 解析后的 JSON: {'Success': True, 'ErrMsg': '', 'SpotWallet': {'USD': {'Free': 50000, 'Lock': 0}}, 'MarginWallet': {}}
+2025-11-15 06:19:02,592 - alpha_live_trading - INFO - [DEBUG] 当前持仓(数量): {}                                                                             
+2025-11-15 06:19:02,592 - alpha_live_trading - INFO - [DEBUG][get_balance] 请求: url=https://mock-api.roostoo.com/v3/balance, headers={'RST-API-KEY': 'w2bR9XU4g6eN8qT1jY0LzA7cD3fV5sK2rC1mF8hJ9pQ4uB6vW3oP5xI7lS0nM2tY', 'MSG-SIGNATURE': '49463c26567139cb4c72af5835a45d4d6fc8cb424b11ac54f23725b0b3b54fd4'}, params={'timestamp': '1763187542592'}
+2025-11-15 06:19:02,828 - alpha_live_trading - INFO - [DEBUG][get_balance] 响应状态: 200                                                                     
+2025-11-15 06:19:02,828 - alpha_live_trading - INFO - [DEBUG][get_balance] 响应文本: {"Success":true,"ErrMsg":"","SpotWallet":{"USD":{"Free":50000,"Lock":0}},"MarginWallet":{}}
+
+2025-11-15 06:19:02,828 - alpha_live_trading - INFO - [DEBUG][get_balance] 解析后的 JSON: {'Success': True, 'ErrMsg': '', 'SpotWallet': {'USD': {'Free': 50000, 'Lock': 0}}, 'MarginWallet': {}}
+2025-11-15 06:19:03,058 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96484.16, 'ETH/USD': 3181.76, 'BNB/USD': 933.97, 'XRP/USD': 2.2845, 'DOGE/USD': 0.16332, 'SOL/USD': 143.1, 'ARB/USD': 0.2468}
+2025-11-15 06:19:03,059 - alpha_live_trading - INFO - [DEBUG] 组合总价值(USD): 0.0                                                                           
+2025-11-15 06:19:03,295 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96472.31, 'ETH/USD': 3181.52, 'BNB/USD': 933.97, 'XRP/USD': 2.2845, 'DOGE/USD': 0.16332, 'SOL/USD': 143.1, 'ARB/USD': 0.2468}
+2025-11-15 06:19:03,295 - alpha_live_trading - INFO - [DEBUG] 当前价格: {'BTC/USD': 96472.31, 'ETH/USD': 3181.52, 'BNB/USD': 933.97, 'XRP/USD': 2.2845, 'DOGE/USD': 0.16332, 'SOL/USD': 143.1, 'ARB/USD': 0.2468}
+2025-11-15 06:19:03,296 - alpha_live_trading - INFO - [DEBUG][BTC/USD] target_weight=0.3494, target_value=0.0000, current_qty=0.0, current_price=96472.31, current_value=0.0000, value_diff=0.0000
+2025-11-15 06:19:03,296 - alpha_live_trading - INFO - [再平衡][BTC/USD] value_diff=0.0000 < min_position_value=10.0，跳过下单                                
+2025-11-15 06:19:03,296 - alpha_live_trading - INFO - [DEBUG][ETH/USD] target_weight=0.0000, target_value=0.0000, current_qty=0.0, current_price=3181.52, current_value=0.0000, value_diff=0.0000
+2025-11-15 06:19:03,296 - alpha_live_trading - INFO - [再平衡][ETH/USD] value_diff=0.0000 < min_position_value=10.0，跳过下单                                
+2025-11-15 06:19:03,296 - alpha_live_trading - INFO - [DEBUG][BNB/USD] target_weight=0.1409, target_value=0.0000, current_qty=0.0, current_price=933.97, current_value=0.0000, value_diff=0.0000
+2025-11-15 06:19:03,296 - alpha_live_trading - INFO - [再平衡][BNB/USD] value_diff=0.0000 < min_position_value=10.0，跳过下单                                
+2025-11-15 06:19:03,296 - alpha_live_trading - INFO - [DEBUG][XRP/USD] target_weight=0.0977, target_value=0.0000, current_qty=0.0, current_price=2.2845, current_value=0.0000, value_diff=0.0000
+2025-11-15 06:19:03,296 - alpha_live_trading - INFO - [再平衡][XRP/USD] value_diff=0.0000 < min_position_value=10.0，跳过下单                                
+2025-11-15 06:19:03,296 - alpha_live_trading - INFO - [DEBUG][DOGE/USD] target_weight=0.0000, target_value=0.0000, current_qty=0.0, current_price=0.16332, current_value=0.0000, value_diff=0.0000
+2025-11-15 06:19:03,296 - alpha_live_trading - INFO - [再平衡][DOGE/USD] value_diff=0.0000 < min_position_value=10.0，跳过下单                               
+2025-11-15 06:19:03,297 - alpha_live_trading - INFO - [DEBUG][SOL/USD] target_weight=0.0000, target_value=0.0000, current_qty=0.0, current_price=143.1, current_value=0.0000, value_diff=0.0000
+2025-11-15 06:19:03,297 - alpha_live_trading - INFO - [再平衡][SOL/USD] value_diff=0.0000 < min_position_value=10.0，跳过下单                                
+2025-11-15 06:19:03,297 - alpha_live_trading - INFO - [DEBUG][ARB/USD] target_weight=0.4120, target_value=0.0000, current_qty=0.0, current_price=0.2468, current_value=0.0000, value_diff=0.0000
+2025-11-15 06:19:03,297 - alpha_live_trading - INFO - [再平衡][ARB/USD] value_diff=0.0000 < min_position_value=10.0，跳过下单                                
+2025-11-15 06:19:03,297 - alpha_live_trading - INFO - [再平衡] 完成          
+2025-11-15 06:19:03,297 - alpha_live_trading - INFO - ======================================================================                                 
+2025-11-15 06:20:03,348 - alpha_live_trading - INFO -                         
+[迭代 2] 2025-11-15 06:20:03           
+2025-11-15 06:20:03,580 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96466.73, 'ETH/USD': 3180.53, 'BNB/USD': 934.12, 'XRP/USD': 2.2846, 'DOGE/USD': 0.16331, 'SOL/USD': 143.09, 'ARB/USD': 0.2468}                      
+2025-11-15 06:20:03,580 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 59.0 分钟                                                              
+2025-11-15 06:21:03,629 - alpha_live_trading - INFO -                         
+[迭代 3] 2025-11-15 06:21:03           
+2025-11-15 06:21:03,863 - alpha_live_trading - INFO - [数据收集] 获取价格: {'BTC/USD': 96474.91, 'ETH/USD': 3183.0, 'BNB/USD': 934.56, 'XRP/USD': 2.2855, 'DOGE/USD': 0.16346, 'SOL/USD': 143.27, 'ARB/USD': 0.247}                        
+2025-11-15 06:21:03,863 - alpha_live_trading - INFO - [等待再平衡] 距离下次再平衡还有 58.0 分钟                                                              
+^C2025-11-15 06:21:39,838 - alpha_live_trading - INFO -                       
+收到中断信号，正在安全退出...          
+2025-11-15 06:21:39,890 - alpha_live_trading - INFO - [数据保存] 已保存到 price_history.json                                                                 
+2025-11-15 06:21:39,891 - alpha_live_trading - INFO - 已保存数据，系统退出    
+[ssm-user@ip-172-31-19-197 alpha_trading]$ python3 balance_search             
+python3: can't open file '/home/ssm-user/alpha_trading/balance_search': [Errno 2] No such file or directory                                                  
+[ssm-user@ip-172-31-19-197 alpha_trading]$ python3 balance_search.py          
+--- Getting Balance ---                
+USD Free: None                         
+[ssm-user@ip-172-31-19-197 alpha_trading]$                                    
