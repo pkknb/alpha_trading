@@ -166,20 +166,23 @@ class PriceDataManager:
     """价格数据管理器 - 每分钟收集并存储数据"""
     
     def __init__(self, api_client: RoostooAPIClient, trading_pairs: List[str], 
-                 max_history: int = 1440, data_file: str = "price_history.json"):
+                 max_history: int = 2000, data_file: str = "price_history.json",
+                 rebalance_freq: str = "10min"):  # ← 新增
         """
         初始化数据管理器
         
         Args:
             api_client: API客户端
             trading_pairs: 交易对列表
-            max_history: 最大保存历史数据条数（默认1440=24小时）
+            max_history: 最大保存历史数据条数（默认2000=33小时）
             data_file: 数据持久化文件
+            rebalance_freq: 重采样频率（如 "10min"）
         """
         self.api = api_client
         self.trading_pairs = trading_pairs
         self.max_history = max_history
         self.data_file = data_file
+        self.rebalance_freq = rebalance_freq
         
         # 使用deque存储价格历史 {pair: deque of (timestamp, price)}
         self.price_history = {pair: deque(maxlen=max_history) for pair in trading_pairs}
@@ -213,8 +216,10 @@ class PriceDataManager:
         
         return prices
     
-    def get_price_dataframe(self) -> pd.DataFrame:
-        """将价格历史转换为DataFrame"""
+    def get_price_dataframe(self, apply_downsample: bool = True) -> pd.DataFrame:
+        """
+        将价格历史转换为DataFrame，并应用降采样
+        """
         if not self.is_ready():
             return pd.DataFrame()
         
@@ -228,17 +233,46 @@ class PriceDataManager:
                 df.columns = [pair]
                 dfs.append(df)
         
-        if dfs:
-            result = pd.concat(dfs, axis=1)
-            return result
-        else:
+        if not dfs:
             return pd.DataFrame()
+        
+        result = pd.concat(dfs, axis=1)
+        
+        # ★ 应用降采样 - 与回测保持一致
+        if apply_downsample and self.rebalance_freq != "1min":
+            original_len = len(result)
+            result = self._downsample_price(result)
+            logger.info(
+                f"[数据降采样] {self.rebalance_freq}: "
+                f"{original_len}条 → {len(result)}条"
+            )
+        
+        return result
+    
+    def _downsample_price(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        对价格数据进行降采样
+        与回测中的 price_downsample_mode="last" 保持一致（取最后价格=收盘价）
+        """
+        if self.rebalance_freq == "1min":
+            return df
+        
+        # 使用 last 方法（取收盘价）- 与回测一致
+        resampled = df.resample(self.rebalance_freq).last()
+        
+        # 移除全NaN行
+        resampled = resampled.dropna(how='all')
+        
+        return resampled
     
     def is_ready(self, min_data_points: int = 30) -> bool:
         """检查是否有足够的数据进行Alpha计算"""
         for pair in self.trading_pairs:
             if len(self.price_history[pair]) < min_data_points:
-                logger.info(f"[数据状态] {pair} 数据不足: {len(self.price_history[pair])}/{min_data_points}")
+                logger.info(
+                    f"[数据状态] {pair} 数据不足: "
+                    f"{len(self.price_history[pair])}/{min_data_points}"
+                )
                 return False
         return True
     
@@ -442,17 +476,26 @@ class AlphaLiveTrading:
     def __init__(self, api_client: RoostooAPIClient, trading_pairs: List[str],
                  min_data_points: int = 30, rebalance_interval: int = 60,
                  min_position_value: float = 10.0, max_position_pct: float = 0.3,
-                 capital_usage_pct: float = 0.1):
+                 capital_usage_pct: float = 0.1,
+                 rebalance_freq: str = "10min",          # ← 新增
+                 commission_rate: float = 0.001,         # ← 新增
+                 max_turnover_rate: float = 0.0001,      # ← 新增
+                 turnover_threshold: float = 0.1):       # ← 新增
         """
         初始化实盘交易系统
         
         Args:
             api_client: API客户端
             trading_pairs: 交易对列表
-            min_data_points: 开始交易前需要的最少数据点
+            min_data_points: 开始交易前需要的最少原始数据点（分钟）
             rebalance_interval: 再平衡间隔（分钟）
-            min_position_value: 最小换仓区间
+            min_position_value: 最小持仓价值（USD）
             max_position_pct: 单个资产最大持仓比例
+            capital_usage_pct: 资金使用比例
+            rebalance_freq: 重采样频率（如 "10min"）- 与回测保持一致
+            commission_rate: 手续费率（如 0.001 = 0.1%）
+            max_turnover_rate: 最大换手率（如 0.0001 = 0.01%）
+            turnover_threshold: 换手率阈值（如 0.1 = 10%）
         """
         self.api = api_client
         self.trading_pairs = trading_pairs
@@ -461,56 +504,95 @@ class AlphaLiveTrading:
         self.min_position_value = min_position_value
         self.max_position_pct = max_position_pct
         self.capital_usage_pct = capital_usage_pct
+        self.rebalance_freq = rebalance_freq              # ← 新增
+        self.commission_rate = commission_rate            # ← 新增
+        self.max_turnover_rate = max_turnover_rate        # ← 新增
+        self.turnover_threshold = turnover_threshold      # ← 新增
         
         # 初始化子模块
-        self.data_manager = PriceDataManager(api_client, trading_pairs)
+        self.data_manager = PriceDataManager(
+            api_client, 
+            trading_pairs,
+            rebalance_freq=rebalance_freq  # ← 传入降采样参数
+        )
         self.order_manager = OrderManager(api_client, timeout_minutes=5)
         
         # 状态
         self.last_rebalance_time = None
         self.current_positions = {}
         self.target_weights = {}
+        self.last_weights = {pair: 0.0 for pair in trading_pairs}
+        self._initialize_last_weights()
+    
+    def _initialize_last_weights(self):
+        """从当前持仓初始化last_weights"""
+        positions = self.get_current_positions()
+        portfolio_value = self.get_portfolio_value()
         
+        if portfolio_value > 0:
+            current_prices = self.data_manager.fetch_current_prices()
+            for pair in self.trading_pairs:
+                qty = positions.get(pair, 0)
+                price = current_prices.get(pair, 0)
+                value = qty * price
+                self.last_weights[pair] = value / portfolio_value
+            
+            logger.info(f"[初始化] 从当前持仓计算的权重: {self.last_weights}")
+        else:
+            self.last_weights = {pair: 0.0 for pair in self.trading_pairs}
+            logger.info("[初始化] 无持仓，权重初始化为0")
     def calculate_alpha_signals(self, price_df: pd.DataFrame) -> pd.Series:
         """
-        计算Alpha信号（这里是示例，你需要用自己的Alpha逻辑）
-        
-        Args:
-            price_df: 价格历史数据 DataFrame
-            
-        Returns:
-            Series: 每个交易对的Alpha值
+        计算Alpha信号
         """
-        # 动量+反转+波动率
+        try:
+            import torch
+            import sys
+            sys.path.append('.')
+            import AlphaOperation as op
+        except ImportError as e:
+            logger.error(f"导入模块失败: {e}")
+            return pd.Series(0, index=price_df.columns)
         
-        if len(price_df) >= 20:
-            momentum_20 = price_df.pct_change(20).iloc[-1]
-        else:
-            momentum_20 = pd.Series(0, index=price_df.columns)
-        
-        if len(price_df) >= 5:
-            reversal_5 = -price_df.pct_change(5).iloc[-1]
-        else:
-            reversal_5 = pd.Series(0, index=price_df.columns)
-        
-        if len(price_df) >= 20:
-            volatility = price_df.pct_change().tail(20).std()
-            vol_signal = -volatility 
-        else:
-            vol_signal = pd.Series(0, index=price_df.columns)
-        
-        # 组合因子
-        alpha = (
-            0.5 * momentum_20 +
-            0.3 * reversal_5 +
-            0.2 * vol_signal
+        logger.info(
+            f"[Alpha计算] 输入数据 - 形状: {price_df.shape}, "
+            f"时间范围: {price_df.index[0]} 到 {price_df.index[-1]}"
         )
         
-        # 标准化
-        alpha = (alpha - alpha.mean()) / (alpha.std() + 1e-9)
+        # 转换为torch tensor
+        price_tensor = torch.tensor(price_df.values, dtype=torch.float32)
         
-        logger.info(f"[Alpha计算] 信号值: {alpha.to_dict()}")
-        return alpha
+        # 计算log returns
+        log_ret_tensor = op.log(op.div(price_tensor, op.ts_delay(price_tensor, 1)))
+        
+        # 应用alpha因子
+        # 窗口参数基于降采样后的频率：
+        # - ts_ewma(30): 30个10分钟 = 5小时
+        # - ts_mean(15): 15个10分钟 = 2.5小时  
+        # - ts_decay_linear(50): 50个10分钟 = 8.3小时
+        alpha_tensor = -op.ts_decay_linear(
+            (op.ts_ewma(log_ret_tensor, 30) + op.ts_mean(log_ret_tensor, 15)), 
+            50
+        )
+        
+        # 取最后一行作为当前信号
+        alpha_values = alpha_tensor[-1].numpy()
+        alpha_series = pd.Series(alpha_values, index=price_df.columns)
+        
+        # 处理NaN值
+        alpha_series = alpha_series.fillna(0)
+        
+        # 检查异常值
+        if alpha_series.isna().all():
+            logger.warning("[Alpha计算] 所有信号为NaN，返回零信号")
+            return pd.Series(0, index=price_df.columns)
+        
+        if np.isinf(alpha_series).any():
+            logger.warning("[Alpha计算] 存在无穷大值，替换为0")
+            alpha_series = alpha_series.replace([np.inf, -np.inf], 0)
+        
+        logger.info(f"[Alpha计算] 信号值: {alpha_series.to_dict()}")
+        return alpha_series
     
     def get_current_positions(self) -> Dict[str, float]:
         """获取当前持仓"""
@@ -531,49 +613,101 @@ class AlphaLiveTrading:
         return positions
     
     def get_portfolio_value(self) -> float:
-        """计算组合总价值"""
+        """计算组合总价值（包括冻结资金）"""
         balance_data = self.api.get_balance()
         
         if not balance_data or not balance_data.get('Success'):
             return 0.0
         
         wallet = balance_data.get('SpotWallet', {})
-        total_value = float(wallet.get('USD', {}).get('Free', 0))
+        
+        # ★ 同时考虑Free和Locked
+        usd_free = float(wallet.get('USD', {}).get('Free', 0))
+        usd_locked = float(wallet.get('USD', {}).get('Locked', 0))
+        total_value = usd_free + usd_locked
         
         current_prices = self.data_manager.fetch_current_prices()
         
         for pair in self.trading_pairs:
             coin = pair.split('/')[0]
             if coin in wallet and pair in current_prices:
-                coin_amount = float(wallet[coin].get('Free', 0)) + float(wallet[coin].get('Locked', 0))
+                coin_free = float(wallet[coin].get('Free', 0))
+                coin_locked = float(wallet[coin].get('Locked', 0))
+                coin_amount = coin_free + coin_locked  # ★ 包含Locked
                 total_value += coin_amount * current_prices[pair]
         
+        logger.info(f"[组合价值] Free=${usd_free:.2f}, Locked=${usd_locked:.2f}, Total=${total_value:.2f}")
         return total_value
     
     def calculate_target_weights(self, alpha_signals: pd.Series) -> Dict[str, float]:
-        """根据Alpha信号计算目标权重"""
-        # 只保留正信号（做多策略）
-        positive_signals = alpha_signals[alpha_signals > 0]
+        """
+        根据Alpha信号计算目标权重，并应用换手率控制
+        完全复刻回测逻辑
+        """
+        # ★ Step 1: 只保留正信号（做多策略）- 与回测的_normalize_long_only一致
+        positive_signals = alpha_signals.clip(lower=0)
         
-        if len(positive_signals) == 0:
+        if positive_signals.sum() == 0:
             logger.warning("[权重计算] 无正信号，全部现金")
-            return {pair: 0.0 for pair in self.trading_pairs}
+            raw_weights = {pair: 0.0 for pair in self.trading_pairs}
+        else:
+            # 标准化到和为1
+            weights = positive_signals / positive_signals.sum()
+            
+            # 限制单资产最大权重
+            weights = weights.clip(upper=self.max_position_pct)
+            
+            # 重新归一化
+            if weights.sum() > 0:
+                weights = weights / weights.sum()
+            
+            raw_weights = {pair: weights.get(pair, 0.0) for pair in self.trading_pairs}
         
-        # 按信号强度分配权重
-        weights = positive_signals / positive_signals.sum()
+        logger.info(f"[权重计算] 原始目标权重: {raw_weights}")
         
-        # 限制单资产最大权重
-        weights = weights.clip(upper=self.max_position_pct)
+        # ★ Step 2: 应用换手率控制 - 与回测的TurnoverControl保持一致
+        # 计算权重变化（turnover）
+        weight_changes = {
+            pair: abs(raw_weights[pair] - self.last_weights[pair]) 
+            for pair in self.trading_pairs
+        }
+        total_turnover = sum(weight_changes.values())
         
-        # 重新归一化
-        if weights.sum() > 0:
-            weights = weights / weights.sum()
+        logger.info(f"[换手率控制] 计算换手率: {total_turnover:.6f}")
         
-        target_weights = {pair: weights.get(pair, 0.0) for pair in self.trading_pairs}
+        # threshold方法：如果turnover超过阈值，则限制变化
+        if total_turnover > self.turnover_threshold:
+            logger.warning(
+                f"[换手率控制] 换手率 {total_turnover:.6f} 超过阈值 {self.turnover_threshold}"
+            )
+            
+            # 限制到max_turnover_rate
+            if total_turnover > self.max_turnover_rate:
+                scale_factor = self.max_turnover_rate / total_turnover
+                logger.warning(
+                    f"[换手率控制] 缩减至 {self.max_turnover_rate:.6f}，"
+                    f"缩放系数: {scale_factor:.4f}"
+                )
+                
+                # 缩减权重变化
+                final_weights = {}
+                for pair in self.trading_pairs:
+                    last_w = self.last_weights[pair]
+                    target_w = raw_weights[pair]
+                    final_weights[pair] = last_w + (target_w - last_w) * scale_factor
+                
+                self.target_weights = final_weights
+            else:
+                self.target_weights = raw_weights
+        else:
+            self.target_weights = raw_weights
         
-        self.target_weights = target_weights
-        logger.info(f"[权重计算] 目标权重: {target_weights}")
-        return target_weights
+        logger.info(f"[换手率控制] 最终目标权重: {self.target_weights}")
+        
+        # 更新last_weights为当前target_weights（在实际交易执行后）
+        # 注意：这里先不更新，等execute_rebalance结束后再更新
+        
+        return self.target_weights
     
     def execute_rebalance(self):
         """执行再平衡"""
@@ -584,13 +718,24 @@ class AlphaLiveTrading:
         self.order_manager.check_and_handle_pending_orders()
         
         # 获取价格数据
-        price_df = self.data_manager.get_price_dataframe()
+        price_df = self.data_manager.get_price_dataframe(apply_downsample=True)
         if price_df.empty:
             logger.warning("[再平衡] 价格数据不足，跳过")
             return
         
-        logger.info(f"[DEBUG] price_df.tail():\n{price_df.tail()}")
-
+        min_required = 50
+        if len(price_df) < min_required:
+            logger.warning(
+                f"[再平衡] 降采样后数据不足 ({len(price_df)}/{min_required})，"
+                f"需要至少 {min_required} 个 {self.rebalance_freq} 的数据点"
+            )
+            return
+        
+        logger.info(
+            f"[数据状态] 降采样后数据: {len(price_df)} 个 {self.rebalance_freq} K线"
+        )
+        logger.info(f"[DEBUG] price_df.tail(3):\n{price_df.tail(3)}")
+        
         # 计算Alpha信号
         alpha_signals = self.calculate_alpha_signals(price_df)
         logger.info(f"[DEBUG] Alpha 信号: {alpha_signals.to_dict()}")
@@ -613,6 +758,9 @@ class AlphaLiveTrading:
         logger.info(f"[DEBUG] 当前价格: {current_prices}")
         
         # 计算并执行交易
+
+        executed_trades = []
+
         for pair in self.trading_pairs:
             target_weight = self.target_weights.get(pair, 0.0)
             target_value = tradable_value * target_weight
@@ -624,10 +772,10 @@ class AlphaLiveTrading:
             value_diff = target_value - current_value
 
             logger.info(
-                f"[DEBUG][{pair}] target_weight={target_weight:.4f}, "
-                f"target_value={target_value:.4f}, current_qty={current_qty}, "
-                f"current_price={current_price}, current_value={current_value:.4f}, "
-                f"value_diff={value_diff:.4f}"
+                f"[交易计划][{pair}] "
+                f"目标权重={target_weight:.4f}, 目标价值=${target_value:.2f}, "
+                f"当前数量={current_qty:.6f}, 当前价值=${current_value:.2f}, "
+                f"价值差=${value_diff:.2f}"
             )
             
             # 如果差异太小，跳过
@@ -637,10 +785,27 @@ class AlphaLiveTrading:
                     f"< min_position_value={self.min_position_value}，跳过下单"
                 )
                 continue
+
+            estimated_commission = abs(value_diff) * self.commission_rate
+            effective_value_change = abs(value_diff) - estimated_commission
+
+            logger.info(
+                f"[交易计划][{pair}] 价值差=${value_diff:.2f}, "
+                f"预估手续费=${estimated_commission:.2f}, "
+                f"净价值变化=${effective_value_change:.2f}"
+            )
+
+            # 用净价值变化判断是否交易
+            if effective_value_change < self.min_position_value:
+                logger.info(
+                    f"[交易执行][{pair}] 扣除手续费后净价值变化 ${effective_value_change:.2f} "
+                    f"< 最小阈值 ${self.min_position_value}，跳过"
+                )
+                continue
             
             # 计算交易数量
             trade_qty = abs(value_diff) / current_price if current_price > 0 else 0
-            trade_qty = round(trade_qty, 6)  # 保留6位小数
+            trade_qty = round(trade_qty, 2)  # 保留2位小数
             logger.info(f"[DEBUG][{pair}] 计算得到 trade_qty={trade_qty}")
             
             if trade_qty == 0:
@@ -670,11 +835,16 @@ class AlphaLiveTrading:
                 
                 # 添加到订单管理器
                 self.order_manager.add_order(order_id, pair, action, trade_qty)
+                executed_trades.append((pair, action, trade_qty))
             else:
-                logger.error(f"[再平衡] 订单失败: {order_result.get('ErrMsg') if order_result else 'Unknown'}")
+                error_msg = order_result.get('ErrMsg') if order_result else 'Unknown'
+                logger.error(f"[交易执行][{pair}] ✗ 订单失败: {error_msg}")  
             
             time.sleep(0.5)  # 避免API限流
-        
+
+        self.last_weights = self.target_weights.copy()
+        logger.info(f"[权重更新] 已更新上次权重: {self.last_weights}")
+
         self.last_rebalance_time = datetime.now()
         logger.info("[再平衡] 完成")
         logger.info("=" * 70)
@@ -746,23 +916,61 @@ class AlphaLiveTrading:
 
 if __name__ == "__main__":
 
+    try:
+        import torch
+        import AlphaOperation as op
+        logger.info("✓ PyTorch 和 AlphaOperation 模块已加载")
+        logger.info(f"  PyTorch版本: {torch.__version__}")
+    except ImportError as e:
+        logger.error(f"✗ 缺少必要模块: {e}")
+        logger.error("  请确保已安装 PyTorch 并且 AlphaOperation.py 在当前目录")
+        exit(1)
+
+
     # API配置
     API_KEY = "w2bR9XU4g6eN8qT1jY0LzA7cD3fV5sK2rC1mF8hJ9pQ4uB6vW3oP5xI7lS0nM2tY"
     SECRET_KEY = "p7LwX3gH1qV8yJ4bS0nK6tF2zU9mR5oC8dA1sI3vW7eN6lP4xT0jZ9fB2kY5hM"
     api_client = RoostooAPIClient(API_KEY, SECRET_KEY)
     
     # 交易对
-    trading_pairs = ["BTC/USD", "ETH/USD"]  # 可以添加更多交易对
+    trading_pairs = ["BTC/USD","ETH/USD","BNB/USD","XRP/USD","DOGE/USD","SOL/USD","ARB/USD",] 
     
     live_trading = AlphaLiveTrading(
         api_client=api_client,
         trading_pairs=trading_pairs,
-        min_data_points=60,          # 至少60个数据点才开始交易
-        rebalance_interval=10,       # 10分钟再平衡一次
-        min_position_value=10.0,     # 最小交易10美元
-        max_position_pct=0.3,
-        capital_usage_pct=0.1         # 单个资产最大30%
+        
+        min_data_points=200,
+        
+        # 再平衡间隔：10分钟检查一次
+        rebalance_interval=10,
+        
+        # 位置管理
+        min_position_value=10.0,      # 最小交易$10
+        max_position_pct=0.3,         # 单资产最大30%
+        capital_usage_pct=0.1,        # 使用10%资金
+        
+        # ★ 关键配置 - 与回测对齐
+        rebalance_freq="10min",       # 降采样到10分钟
+        commission_rate=0.001,        # 0.1% 手续费
+        max_turnover_rate=0.0001,     # 0.01% 最大换手率
+        turnover_threshold=0.1        # 10% 换手率阈值
     )
     
-    # 每60秒收集一次数据+运行策略
+    # ★ Step 5: 启动信息
+    logger.info("=" * 70)
+    logger.info("🚀 Alpha实盘交易系统启动")
+    logger.info("=" * 70)
+    logger.info(f"📊 交易对: {trading_pairs}")
+    logger.info(f"⏱️  数据收集: 每60秒一次（1分钟原始数据）")
+    logger.info(f"📉 降采样: {live_trading.rebalance_freq}")
+    logger.info(f"🔄 再平衡: 每{live_trading.rebalance_interval}分钟检查一次")
+    logger.info(f"📏 最少数据: {live_trading.min_data_points}分钟原始数据")
+    logger.info(f"💰 资金使用: {live_trading.capital_usage_pct*100}%")
+    logger.info(f"🎯 换手率限制: {live_trading.max_turnover_rate*100}%")
+    logger.info(f"⚠️  换手率阈值: {live_trading.turnover_threshold*100}%")
+    logger.info("=" * 70)
+    
+    # ★ Step 6: 运行系统
+    # 每60秒收集一次1分钟数据
+    # 系统会自动降采样到10分钟，然后计算alpha
     live_trading.run_forever(data_collection_interval=60)

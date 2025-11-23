@@ -23,7 +23,7 @@ TRADING_PAIRS = [
 # 策略参数
 STRATEGY_CONFIG = {
     'min_data_points': 100,       # 开始交易前需要的最少数据点（30分钟）
-    'rebalance_interval': 60,    # 再平衡间隔（分钟）
+    'rebalance_interval': 10,    # 再平衡间隔（分钟）
     'min_position_value': 10.0,  # 最小换仓变化区间
     'max_position_pct': 0.3,     # 单个资产最大持仓比例（30%）
 }
