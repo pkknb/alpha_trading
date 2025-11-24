@@ -1,0 +1,44 @@
+(.venv) -bash-5.2$ python3 -c "import torch; print('torch', torch.__version__, 'cuda?', torch.cuda.is_available())"                                          
+torch 2.8.0+cpu cuda? False           
+(.venv) -bash-5.2$ python3 alpha_live_trading.py                              
+2025-11-23 17:41:08,118 - __main__ - ERROR - ✗ 缺少必要模块: No module named 'sklearn'                                                                       
+2025-11-23 17:41:08,118 - __main__ - ERROR -   请确保已安装 PyTorch 并且 AlphaOperation.py 在当前目录                                                        
+(.venv) -bash-5.2$                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
