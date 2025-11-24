@@ -479,7 +479,7 @@ class AlphaLiveTrading:
                  capital_usage_pct: float = 0.1,
                  rebalance_freq: str = "10min",          # ← 新增
                  commission_rate: float = 0.001,         # ← 新增
-                 max_turnover_rate: float = 0.0001,      # ← 新增
+                 max_turnover_rate: float = 0.2,      # ← 新增
                  turnover_threshold: float = 0.1):       # ← 新增
         """
         初始化实盘交易系统
@@ -664,6 +664,15 @@ class AlphaLiveTrading:
             raw_weights = {pair: weights.get(pair, 0.0) for pair in self.trading_pairs}
         
         logger.info(f"[权重计算] 原始目标权重: {raw_weights}")
+
+        # ☆ Step 2: 检查是否为首次建仓
+        total_current_weight = sum(self.last_weights.values())
+        is_initial_position = total_current_weight < 0.01  # 当前持仓<1%视为首次建仓
+
+        if is_initial_position:
+            logger.info("[换手率控制] ⚠️  检测到首次建仓,跳过换手率限制")
+            self.target_weights = raw_weights
+            return self.target_weights
         
         # ★ Step 2: 应用换手率控制 - 与回测的TurnoverControl保持一致
         # 计算权重变化（turnover）
@@ -947,7 +956,7 @@ if __name__ == "__main__":
         # 位置管理
         min_position_value=10.0,      # 最小交易$10
         max_position_pct=0.3,         # 单资产最大30%
-        capital_usage_pct=0.1,        # 使用10%资金
+        capital_usage_pct=1,        # 使用10%资金
         
         # ★ 关键配置 - 与回测对齐
         rebalance_freq="10min",       # 降采样到10分钟
